@@ -1,0 +1,25 @@
+# default article headers
+
+# default for an untitled blog post
+title: untitled blog post
+
+# default author name
+author: Michael
+
+# default tags
+tags:  untagged
+
+# enable comments
+# comments: On
+comments: Off
+
+# enable trackback                                                                                                             # trackback: On
+trackback: Off
+
+# directories
+articles:  /home/eye/sbe/site/articles
+inbox:   /home/eye/sbe/site/inbox
+deploy:    /home/eye/sbe/site/deploy
+templates: /home/eye/sbe/site/templates
+
+url:    http://fnanp.in-ulm.de/frederik_und_moritz/sbe
