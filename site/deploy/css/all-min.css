@@ -5,8 +5,8 @@ html {
 	margin:0;
 	padding:0;
 	height:100%;
-	color:#000;
-	background:#999;
+	color:#24B200;
+	background:#222;
 }
 
 h1 {
@@ -20,28 +20,28 @@ h2 {
 #wrap {
 	width:90%;
 	margin:0 auto;
-	background:#FFF;
+	background:#444;
 }
 
 #header {
 	padding:5px 10px;
-	background:#4682B4;
+	background:#000;
 	color:#FFF;
 }
 
 #header h1 a {
-	color:#FFF;
+	color:#33FF00;
 	font:120% Courier, monospace;
 }
 
 #header a {
-	color:#FFF;
+	color:#24B200;
 	font:90% Terminus, Consolas, Bitstream Vera Sans Mono, Lucida Console, Courier, monospace;
 }
 
 
 #header .claim {
-	color:#FFF;
+	color:#24B200;
 	font:100% Terminus, Consolas, Bitstream Vera Sans Mono, Lucida Console, Courier, monospace;
 }
 
@@ -53,12 +53,12 @@ h2 {
 }
 
 #main .title {
-	color:#36648B;
+	color:#33FF00;
 	font:160% Terminus, Consolas, Bitstream Vera Sans Mono, Lucida Console, Courier, monospace;
 }
 
 #main a{
-	color:#36648B;
+	color:#00FF00;
 }
 
 #main .tags {
@@ -86,32 +86,36 @@ h2 {
 	float:right;
 	width:20%;
 	padding:10px;
-	color:#36648B;
-	background:#DDD;
+	color:#24B200;
+	background:#333;
 	font:60% Terminus, Consolas, Bitstream Vera Sans Mono, Lucida Console, Courier, monospace;
 }
 
+#sidebar a {
+	color:#00FF00;
+}
 
 
 #footer {
 	clear:both;
-	background:#999;
+	background:#333;
 	text-align:center;
-	color:#FFF;
+	color:#24B200;
 	font:90% Terminus, Consolas, Bitstream Vera Sans Mono, Lucida Console, Courier, monospace;
 }
 
 #footer p {
 	margin:0;
-	color:#FFF;
+	color:#24B200;
 }
 
 #footer a {
-	color:#FFF;
+	color:#24B200;
 }
 
 * html #footer {
 	height:1px;
+	color:#24B200;
 }
 
 del { 
@@ -120,27 +124,29 @@ del {
 
 .disabled {
 	text-decoration:line-through;
+	color:#24B200;
 }
 
 ul.nav {
 	margin:0 0 1em 0;
+	color:#24B200;
 }
 ul.nav li {
 	list-style:none;
-	color:#FFF;
+	color:#24B200;
 	font:90% Terminus, Consolas, Bitstream Vera Sans Mono, Lucida Console, Courier, monospace;
 }
 ul.nav li.prev {
 	float:left;
-	color:#FFF;
+	color:#24B200;
 }
 ul.nav li.next {
 	float:right;
 	text-align:right;
-	color:#FFF;
+	color:#24B200;
 }
 ul.nav li.up {
 	float:center;
 	text-align:center;
-	color:#FFF;
+	color:#24B200;
 }
