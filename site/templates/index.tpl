@@ -5,19 +5,19 @@
       xmlns:py="http://genshi.edgewall.org/"
       lang="de">
     <head>
-        <title>Frederik und Moritz Blog</title>
+        <title>ein Blog</title>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
         <meta name="date" py:if="c" content="${c[0].get_article().created.isoformat()}" />
         <meta name="robots" content="index, follow" />
         <meta http-equiv="content-language" content="de" />
         <link rel="stylesheet" type="text/css" href="${top}css/all-min.css" />
-        <link rel="alternate" type="application/atom+xml" title="Frederik und Moritz Blog" href="${top}atom.xml" />
+        <link rel="alternate" type="application/atom+xml" title="ein Blog" href="${top}atom.xml" />
     </head>
     <body>
     <div id="wrap">
         <div id="header">
-            <h1><a href="${top}">Frederik und Moritz Blog</a></h1>
-	    <p class="claim">väterliche Betrachtungen</p>
+            <h1><a href="${top}">ein Blog</a></h1>
+	    <p class="claim">Betrachtungen</p>
             <ul py:def="navigation(node_list)" class="nav">
                 <li class="prev">
                     <a py:if="node_list[-1].parent.prev" href="${top}${node_list[-1].parent.prev.get_deploy_path()}">${unicode(node_list[-1].parent.prev.get_date().strftime("%d. %B %Y"),"utf-8")}</a>
@@ -53,18 +53,13 @@
 	  <ul>
 	    <li><a href="${top}">Blog-Ursprung</a></li>
 	    <li><a href="${top}tags/index.html">Tags (Themen)</a></li>
-	    <li><a href="${top}2010/index.html">Archiv 2010</a></li>
-	    <li><a href="${top}2011/index.html">Archiv 2011</a></li>
-	    <li><a href="${top}2012/index.html">Archiv 2012</a></li>
-	    <li><a href="http://fnanp.in-ulm.de/frederik_und_moritz/photos/">Photo-Seite</a></li>
+	    <li><a href="${top}2013/index.html">Archiv 2013</a></li>
+	    <li><a href="http://fnanp.in-ulm.de/frederik_und_moritz/sbe">Kinder Blog</a></li>
 	    <li><a href="http://fnanp.in-ulm.de/">FNANP Hauptseite</a></li>
 	  </ul>
 	  <hr />
 	  <h2>Externe Links</h2>
 	  <ul>
-	    <li><a href="http://blog.wired.com/geekdad/">Geekdad Blog</a></li>
-	    <li><a href="http://www.babylonia.be/">Babylonia Tragetücher</a></li>
-	    <li><a href="http://www.topolino-figurentheater.de/">Topolino Figurentheater</a></li>
 	  </ul>
 	  <hr />
 	  <h2>Feed</h2>

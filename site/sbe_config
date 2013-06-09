@@ -17,9 +17,9 @@ comments: Off
 trackback: Off
 
 # directories
-articles:  /home/eye/sbe/site/articles
-inbox:   /home/eye/sbe/site/inbox
-deploy:    /home/eye/sbe/site/deploy
-templates: /home/eye/sbe/site/templates
+articles:  /home/eye/blog/site/articles
+inbox:   /home/eye/blog/site/inbox
+deploy:    /home/eye/blog/site/deploy
+templates: /home/eye/blog/site/templates
 
-url:    http://fnanp.in-ulm.de/frederik_und_moritz/sbe
+url:    http://fnanp.in-ulm.de/blog
