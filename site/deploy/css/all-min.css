@@ -1,0 +1,146 @@
+/* Bad hack coming up, just inserting stuff for two columns and colour below */
+
+body,
+html {
+	margin:0;
+	padding:0;
+	height:100%;
+	color:#000;
+	background:#999;
+}
+
+h1 {
+	margin:0;
+}
+
+h2 {
+	margin:0 0 1em;
+}
+
+#wrap {
+	width:90%;
+	margin:0 auto;
+	background:#FFF;
+}
+
+#header {
+	padding:5px 10px;
+	background:#4682B4;
+	color:#FFF;
+}
+
+#header h1 a {
+	color:#FFF;
+	font:120% Courier, monospace;
+}
+
+#header a {
+	color:#FFF;
+	font:90% Terminus, Consolas, Bitstream Vera Sans Mono, Lucida Console, Courier, monospace;
+}
+
+
+#header .claim {
+	color:#FFF;
+	font:100% Terminus, Consolas, Bitstream Vera Sans Mono, Lucida Console, Courier, monospace;
+}
+
+#main {
+	float:left;
+	width:70%;
+	padding:10px;
+	font:100% Calibri, Bitstream Vera Sans, Verdana, Arial, sans-serif;
+}
+
+#main .title {
+	color:#36648B;
+	font:160% Terminus, Consolas, Bitstream Vera Sans Mono, Lucida Console, Courier, monospace;
+}
+
+#main a{
+	color:#36648B;
+}
+
+#main .tags {
+	float:right;
+	font:80% Terminus, Consolas, Bitstream Vera Sans Mono, Lucida Console, Courier, monospace;
+}
+#main ul.tags li {
+	list-style:none;
+}
+#main .info {
+	font:80% Terminus, Consolas, Bitstream Vera Sans Mono, Lucida Console, Courier, monospace;
+}
+
+#main .article {
+	font:100% Calibri, Bitstream Vera Sans, Verdana, Arial, sans-serif;
+	text-align:justify;
+}
+
+#main blockquote {
+	color:#36648B;
+	background:#DDD;
+}
+
+#sidebar {
+	float:right;
+	width:20%;
+	padding:10px;
+	color:#36648B;
+	background:#DDD;
+	font:60% Terminus, Consolas, Bitstream Vera Sans Mono, Lucida Console, Courier, monospace;
+}
+
+
+
+#footer {
+	clear:both;
+	background:#999;
+	text-align:center;
+	color:#FFF;
+	font:90% Terminus, Consolas, Bitstream Vera Sans Mono, Lucida Console, Courier, monospace;
+}
+
+#footer p {
+	margin:0;
+	color:#FFF;
+}
+
+#footer a {
+	color:#FFF;
+}
+
+* html #footer {
+	height:1px;
+}
+
+del { 
+	text-decoration:line-through;
+}
+
+.disabled {
+	text-decoration:line-through;
+}
+
+ul.nav {
+	margin:0 0 1em 0;
+}
+ul.nav li {
+	list-style:none;
+	color:#FFF;
+	font:90% Terminus, Consolas, Bitstream Vera Sans Mono, Lucida Console, Courier, monospace;
+}
+ul.nav li.prev {
+	float:left;
+	color:#FFF;
+}
+ul.nav li.next {
+	float:right;
+	text-align:right;
+	color:#FFF;
+}
+ul.nav li.up {
+	float:center;
+	text-align:center;
+	color:#FFF;
+}
