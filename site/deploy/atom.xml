@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>ein Blog</title>
+    <id>http://fnanp.in-ulm.de/blog/</id>
+    <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
+    <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
+    <updated>2013-06-09T10:42:18Z</updated>
+    <entry>
+        <title>first post on the new klo.</title>
+        <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2013/06/09/01-first_post_on_the_new_klo.html" type="text/html"/>
+        <id>tag:fnanp.in-ulm.de,2013-06-09:2013/06/09/first_post_on_the_new_klo</id>
+        <updated>2013-06-09T10:42:18Z</updated>
+        <published>2013-06-09T10:42:11Z</published>
+        <category term="administrativa"/>
+        <author>
+            <name>michael</name>
+        </author>
+        <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Ich gebe zu, den Titel kapieren jetzt hoechstens 10 Leute, und maximal 2
+von denen werden das hier lesen, aber SCNR.</p>
+<p>Jedenfalls: hin und wieder kann es vorkommen, dass ich der Welt was
+mitteilen will, was nicht ins
+<a href="http://fnanp.in-ulm.de/frederik_und_moritz/sbe/">Kinderblog</a> passt, und
+was ausserdem zu viel Text fuer <a href="https://twitter.com/das_aug">Twitter</a>
+ist. Dafuer soll jetzt dieses Theater hier gut sein.</p></div></content>
+    </entry>
+</feed>
