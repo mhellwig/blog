@@ -24,7 +24,7 @@
                     <span py:if="not node_list[-1].parent.prev" class="disabled">zurück</span>
                 </li>
                 <li class="next">
-                    <span class="disabled">weiter</span>
+                    <span class="disabled">next</span>
                 </li>
                 <li class="up"><a href="${top}tags/">Tags</a></li>
             </ul>
@@ -58,7 +58,7 @@
 	    <li><a href="http://fnanp.in-ulm.de/">FNANP Hauptseite</a></li>
 	  </ul>
 	  <hr />
-	  <h2>Externe Links</h2>
+	  <h2>Links</h2>
 	  <ul>
 	  </ul>
 	  <hr />

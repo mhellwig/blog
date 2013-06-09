@@ -25,9 +25,9 @@
                 </li>
                 <li class="next">
                     <a py:if="c.next" href="${top}${c.next.get_deploy_path()}">${unicode(c.next.get_date().strftime("%B %Y"),"utf-8")}</a>
-                    <span py:if="not c.next" class="disabled">weiter</span>
+                    <span py:if="not c.next" class="disabled">next</span>
                 </li>
-                <li class="up"><a href="${top}${c.parent.get_deploy_path()}">Nach oben</a><br/>
+                <li class="up"><a href="${top}${c.parent.get_deploy_path()}">up</a><br/>
                     <a href="${top}${c.parent.get_deploy_path()}">${c.parent.get_base_name()}</a>
                 </li>
             </ul>
@@ -52,7 +52,7 @@
 	    <li><a href="http://fnanp.in-ulm.de/">FNANP Hauptseite</a></li>
 	  </ul>
 	  <hr />
-	  <h2>Externe Links</h2>
+	  <h2>Links</h2>
 	  <ul>
 	  </ul>
 	  <hr />

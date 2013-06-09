@@ -21,9 +21,9 @@
                     <span class="disabled">zurück</span>
                 </li>
                 <li class="next">
-                    <span class="disabled">weiter</span>
+                    <span class="disabled">next</span>
                 </li>
-                <li class="up"><a href="${top}">Nach oben</a><br/><a href="${top}">Blog</a></li>
+                <li class="up"><a href="${top}">up</a><br/><a href="${top}">Blog</a></li>
             </ul>
             ${navigation()}
         </div>
@@ -47,7 +47,7 @@
 	    <li><a href="http://fnanp.in-ulm.de/">FNANP Hauptseite</a></li>
 	  </ul>
 	  <hr />
-	  <h2>Externe Links</h2>
+	  <h2>Links</h2>
 	  <ul>
 	  </ul>
 	  <hr />
