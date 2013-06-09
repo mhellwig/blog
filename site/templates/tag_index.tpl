@@ -18,7 +18,7 @@
 	    <p class="claim">ramblings/betrachtungen</p>
             <ul py:def="navigation()" class="nav">
                 <li class="prev">
-                    <span class="disabled">zurück</span>
+                    <span class="disabled">previous</span>
                 </li>
                 <li class="next">
                     <span class="disabled">next</span>

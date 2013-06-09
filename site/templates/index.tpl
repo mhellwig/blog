@@ -21,7 +21,7 @@
             <ul py:def="navigation(node_list)" class="nav">
                 <li class="prev">
                     <a py:if="node_list[-1].parent.prev" href="${top}${node_list[-1].parent.prev.get_deploy_path()}">${unicode(node_list[-1].parent.prev.get_date().strftime("%d. %B %Y"),"utf-8")}</a>
-                    <span py:if="not node_list[-1].parent.prev" class="disabled">zurück</span>
+                    <span py:if="not node_list[-1].parent.prev" class="disabled">previous</span>
                 </li>
                 <li class="next">
                     <span class="disabled">next</span>

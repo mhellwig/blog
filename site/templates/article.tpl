@@ -25,7 +25,7 @@
             <ul py:def="navigation(node)" class="nav">
                 <li class="prev">
                     <a py:if="c.prev" href="${top}${c.prev.get_deploy_path()}">${c.prev.get_article().title}</a>
-                    <span py:if="not c.prev" class="disabled">zurück</span>
+                    <span py:if="not c.prev" class="disabled">previous</span>
                 </li>
                 <li class="next">
                     <a py:if="c.next" href="${top}${c.next.get_deploy_path()}">${c.next.get_article().title}</a>
