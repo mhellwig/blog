@@ -7,7 +7,7 @@
         <title>Tags</title>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
         <meta name="robots" content="index, follow" />
-        <meta http-equiv="content-language" content="de" />
+        <meta http-equiv="content-language" content="en" />
         <link rel="stylesheet" type="text/css" href="${top}css/all-min.css" />
         <link rel="start" href="${top}" />
     </head>
@@ -15,7 +15,7 @@
     <div id="wrap">
         <div id="header">
             <h1><a href="${top}">ein Blog</a></h1>
-	    <p class="claim">Betrachtungen</p>
+	    <p class="claim">ramblings/betrachtungen</p>
             <ul py:def="navigation()" class="nav">
                 <li class="prev">
                     <span class="disabled">zurück</span>

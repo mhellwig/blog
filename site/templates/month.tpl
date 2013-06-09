@@ -7,7 +7,7 @@
         <title>${unicode(c.get_date().strftime("%B %Y"),"utf-8")}</title>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
         <meta name="robots" content="index, follow" />
-        <meta http-equiv="content-language" content="de" />
+        <meta http-equiv="content-language" content="en" />
         <link rel="stylesheet" type="text/css" href="${top}css/all-min.css" />
         <link py:if="c.next" rel="next" href="${top}${c.next.get_deploy_path()}" />
         <link py:if="c.prev" rel="prev" href="${top}${c.prev.get_deploy_path()}" />
@@ -17,7 +17,7 @@
     <div id="wrap">
         <div id="header">
             <h1><a href="${top}">ein Blog</a></h1>
-	    <p class="claim">Betrachtungen</p>
+	    <p class="claim">ramblings/betrachtungen</p>
             <ul py:def="navigation(node)" class="nav">
                 <li class="prev">
                     <a py:if="c.prev" href="${top}${c.prev.get_deploy_path()}">${unicode(c.prev.get_date().strftime("%B %Y"),"utf-8")}</a>
