@@ -43,10 +43,10 @@
        	<div id="sidebar">
 	  <h2>Navigation</h2>
 	  <ul>
-	    <li><a href="${top}">Blog-Ursprung</a></li>
-	    <li><a href="${top}/2013/index.html">Archiv 2013</a></li>
-	    <li><a href="http://fnanp.in-ulm.de/frederik_und_moritz/sbe/">Kinder Blog</a></li>
-	    <li><a href="http://fnanp.in-ulm.de/">FNANP Hauptseite</a></li>
+	    <li><a href="${top}">Blog-Root</a></li>
+	    <li><a href="${top}/2013/index.html">Archive 2013</a></li>
+	    <li><a href="http://fnanp.in-ulm.de/frederik_und_moritz/sbe/">Blog about my Kids</a></li>
+	    <li><a href="http://fnanp.in-ulm.de/">FNANP Root</a></li>
   </ul>
 	  <hr />
 	  <h2>Links</h2>
