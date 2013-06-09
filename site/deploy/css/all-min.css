@@ -17,6 +17,10 @@ h2 {
 	margin:0 0 1em;
 }
 
+hr {
+	border-color:#24B200;
+}
+
 #wrap {
 	width:90%;
 	margin:0 auto;
@@ -38,7 +42,6 @@ h2 {
 	color:#24B200;
 	font:90% Terminus, Consolas, Bitstream Vera Sans Mono, Lucida Console, Courier, monospace;
 }
-
 
 #header .claim {
 	color:#24B200;
@@ -65,9 +68,11 @@ h2 {
 	float:right;
 	font:80% Terminus, Consolas, Bitstream Vera Sans Mono, Lucida Console, Courier, monospace;
 }
+
 #main ul.tags li {
 	list-style:none;
 }
+
 #main .info {
 	font:80% Terminus, Consolas, Bitstream Vera Sans Mono, Lucida Console, Courier, monospace;
 }
@@ -94,7 +99,6 @@ h2 {
 #sidebar a {
 	color:#00FF00;
 }
-
 
 #footer {
 	clear:both;
