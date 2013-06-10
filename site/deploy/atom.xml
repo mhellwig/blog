@@ -4,8 +4,76 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2013-06-09T15:42:10Z</updated>
+    <updated>2013-06-10T11:17:24Z</updated>
     <entry>
+        <title>arp.</title>
+        <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2013/06/10/01-arp.html" type="text/html"/>
+        <id>tag:fnanp.in-ulm.de,2013-06-10:2013/06/10/arp</id>
+        <updated>2013-06-10T11:17:24Z</updated>
+        <published>2013-06-10T11:17:19Z</published>
+        <category term="computers"/><category term="networking"/><category term="android"/>
+        <author>
+            <name>michael</name>
+        </author>
+        <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>So I've stumbled across this weird networking issue while using my Android
+phone (a rooted Droid 4). What I was seeing was this:</p>
+<p>I had gone to our <a href="http://www.in-ulm.de">club</a> hangout and had used the
+wifi there. After coming back home again, and using my wifi at home, my
+phone wouldn't connect to my server, neither via SSH nor via IMAPS nor any
+other protocol. Fearing something had caused my server to go offline, I
+tried to reach it in other ways (i.e. by connecting through other hosts).</p>
+<p>I then discovered something weird.</p>
+<ul>
+<li>my server <em>was</em> online</li>
+<li>I could connect to it via some other remote host that took a different
+ path into the server network</li>
+<li>oh wait, I could connect to it via a different host that was in the same
+ network as my server? (Meaning the network as such was reachable)</li>
+<li>oh wait, other computers <em>inside my wifi</em> can connect to the server? Uh
+ .. what?</li>
+<li>oh wait, when I disconnect from my wifi and use the 3G connection
+ instead, I <em>can</em> connect to the server</li>
+</ul>
+<p>So, next, I looked at the shell on my phone again and tried to see if
+maybe the routing was broken, but </p>
+<pre class="codehilite"><code>$ ip route show</code></pre>
+<p>gave a completely normal output (i.e. there was only the default route to
+my wifi router plus the local netmask). Next, I tried to see whether there
+was a pattern to to the IP addresses I could reach and the ones I
+couldn't. There was. It was <em>only</em> the IP address of my server that was
+unreachable. I tried connecting to the IP addresses of some VMs that run
+<em>on that server</em> (i.e. behind the same bridging interface) and they were
+reachable.</p>
+<p>Just for laughs, I used another IP address from the same server network
+that was unused at that time and added that one to the interface, and
+my server was instantly reachable via that address. So it really was that
+one, specific, IP address that was unreachable.</p>
+<p>At which point a colleague of mine (I had thrown my story out to some
+people I know to aid in brainstorming) said "Have you looked at the arp
+cache?"</p>
+<p>I hadn't.</p>
+<p>So I did.</p>
+<pre class="codehilite"><code>$ arp
+fnanp.in-ulm.n-addr.arpa (217.10.9.38) at &lt;incomplete&gt; on wlan0</code></pre>
+<p>So. A full two days earlier, my phone had been connected to a wifi in
+which said server can be reached without going through a router and
+therefore had added the servers address to its arp cache. If I read the
+arp(7) manpage correctly, the lifetime of an entry in the arp cache should
+be around the 30 seconds mark, but at this point it was already 48 hours
+that it had been there. Another way to see that the phone thought the
+server should be in the same network:</p>
+<pre class="codehilite"><code>$ ip neigh show
+217.10.9.38 dev wlan0 FAILED</code></pre>
+<p>also</p>
+<pre class="codehilite"><code>$ ip route show cache | grep 217.10.9.38</code></pre>
+<p>showed it as a local address that was offline. At this point I was
+pondering whether I should flush the cache and just be done with it or
+whether I wanted to find out more about this. But then my parents came
+over to visit and we went out to have dinner. When we came back and my
+phone reconnected to my wifi, the issue was gone.</p>
+<p>Well, I'll be back in the wifi that caused the whole problem tomorrow
+evening. I'm curious whether it'll happen again.</p></div></content>
+    </entry><entry>
         <title>defrage.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2013/06/09/02-defrage.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2013-06-09:2013/06/09/defrage</id>

@@ -1,0 +1,81 @@
+Title     : arp.
+Author    : michael
+Created   : 2013-06-10T11:17:19
+Tags      : computers, networking, android
+Comments  : Off
+Trackback : Off
+TagURI    : tag:fnanp.in-ulm.de,2013-06-10:2013/06/10/arp
+
+So I've stumbled across this weird networking issue while using my Android
+phone (a rooted Droid 4). What I was seeing was this:
+
+I had gone to our [club](http://www.in-ulm.de) hangout and had used the
+wifi there. After coming back home again, and using my wifi at home, my
+phone wouldn't connect to my server, neither via SSH nor via IMAPS nor any
+other protocol. Fearing something had caused my server to go offline, I
+tried to reach it in other ways (i.e. by connecting through other hosts).
+
+I then discovered something weird.
+
+* my server _was_ online
+* I could connect to it via some other remote host that took a different
+ path into the server network
+* oh wait, I could connect to it via a different host that was in the same
+ network as my server? (Meaning the network as such was reachable)
+* oh wait, other computers _inside my wifi_ can connect to the server? Uh
+ .. what?
+* oh wait, when I disconnect from my wifi and use the 3G connection
+ instead, I _can_ connect to the server
+
+So, next, I looked at the shell on my phone again and tried to see if
+maybe the routing was broken, but 
+
+    $ ip route show
+
+gave a completely normal output (i.e. there was only the default route to
+my wifi router plus the local netmask). Next, I tried to see whether there
+was a pattern to to the IP addresses I could reach and the ones I
+couldn't. There was. It was _only_ the IP address of my server that was
+unreachable. I tried connecting to the IP addresses of some VMs that run
+_on that server_ (i.e. behind the same bridging interface) and they were
+reachable.
+
+Just for laughs, I used another IP address from the same server network
+that was unused at that time and added that one to the interface, and
+my server was instantly reachable via that address. So it really was that
+one, specific, IP address that was unreachable.
+
+At which point a colleague of mine (I had thrown my story out to some
+people I know to aid in brainstorming) said "Have you looked at the arp
+cache?"
+
+I hadn't.
+
+So I did.
+
+    $ arp
+    fnanp.in-ulm.n-addr.arpa (217.10.9.38) at <incomplete> on wlan0
+
+So. A full two days earlier, my phone had been connected to a wifi in
+which said server can be reached without going through a router and
+therefore had added the servers address to its arp cache. If I read the
+arp(7) manpage correctly, the lifetime of an entry in the arp cache should
+be around the 30 seconds mark, but at this point it was already 48 hours
+that it had been there. Another way to see that the phone thought the
+server should be in the same network:
+
+    $ ip neigh show
+    217.10.9.38 dev wlan0 FAILED
+
+also
+
+    $ ip route show cache | grep 217.10.9.38
+
+showed it as a local address that was offline. At this point I was
+pondering whether I should flush the cache and just be done with it or
+whether I wanted to find out more about this. But then my parents came
+over to visit and we went out to have dinner. When we came back and my
+phone reconnected to my wifi, the issue was gone.
+
+Well, I'll be back in the wifi that caused the whole problem tomorrow
+evening. I'm curious whether it'll happen again.
