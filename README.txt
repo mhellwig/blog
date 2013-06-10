@@ -5,4 +5,7 @@ one using it. Which sucks, because it's nice static blog software.
 
 But there you go.
 
+I've made a stump page about it at
+http://fnanp.in-ulm.de/sbe/
+
 -mhellwig
