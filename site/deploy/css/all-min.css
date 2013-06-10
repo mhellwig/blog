@@ -88,6 +88,12 @@ hr {
 	background:#DDD;
 }
 
+#main pre {
+	color:#00FF00;
+	background:#333;
+	font:100% Terminus, Consolas, Bitstream Vera Sans Mono, Lucida Console, Courier, monospace;
+}
+
 #sidebar {
 	float:right;
 	width:20%;
