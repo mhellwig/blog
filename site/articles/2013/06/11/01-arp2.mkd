@@ -1,0 +1,19 @@
+Title     : arp2.
+Author    : michael
+Created   : 2013-06-11T23:53:13
+Tags      : computers, networking, android
+Comments  : Off
+Trackback : Off
+TagURI    : tag:fnanp.in-ulm.de,2013-06-11:2013/06/11/arp2
+
+So.
+
+The problem is reproducible. Was online in the wifi where server is
+reachable directly, server went into arp cache. Disconnected from said
+wifi, connected to other wifi. Server still in arp cache, now as 
+
+    <incomplete> on wlan0
+
+and therefore, again, unreachable under that IP address.
+
+So at least on this Droid4, arp cache handling is definitely b0rken.
