@@ -3,7 +3,7 @@ Author    : michael
 Created   : 2013-06-11T23:53:13
 Tags      : computers, networking, android
 Comments  : Off
-Trackback : Off
+Trackback : On
 TagURI    : tag:fnanp.in-ulm.de,2013-06-11:2013/06/11/arp2
 
 So.
@@ -17,3 +17,5 @@ wifi, connected to other wifi. Server still in arp cache, now as
 and therefore, again, unreachable under that IP address.
 
 So at least on this Droid4, arp cache handling is definitely b0rken.
+
+Note: if anyone else can reproduce this, I'd be happy to hear about it.
