@@ -4,7 +4,7 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2013-06-11T23:55:37Z</updated>
+    <updated>2013-06-11T23:58:06Z</updated>
     <entry>
         <title>arp2.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2013/06/11/01-arp2.html" type="text/html"/>
@@ -27,7 +27,7 @@ wifi, connected to other wifi. Server still in arp cache, now as </p>
         <title>arp.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2013/06/10/01-arp.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2013-06-10:2013/06/10/arp</id>
-        <updated>2013-06-10T11:17:24Z</updated>
+        <updated>2013-06-11T23:57:56Z</updated>
         <published>2013-06-10T11:17:19Z</published>
         <category term="computers"/><category term="networking"/><category term="android"/>
         <author>

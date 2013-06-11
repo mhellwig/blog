@@ -3,7 +3,7 @@ Author    : michael
 Created   : 2013-06-10T11:17:19
 Tags      : computers, networking, android
 Comments  : Off
-Trackback : Off
+Trackback : On
 TagURI    : tag:fnanp.in-ulm.de,2013-06-10:2013/06/10/arp
 
 So I've stumbled across this weird networking issue while using my Android
