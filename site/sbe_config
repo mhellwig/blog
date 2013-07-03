@@ -14,7 +14,7 @@ tags:  untagged
 comments: Off
 
 # enable trackback                                                                                                             # trackback: On
-trackback: Off
+trackback: On
 
 # directories
 articles:  /home/eye/blog/site/articles
