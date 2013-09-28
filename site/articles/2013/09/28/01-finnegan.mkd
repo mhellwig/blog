@@ -1,0 +1,673 @@
+Title     : finnegan.
+Author    : chrissi
+Created   : 2013-09-28T17:09:35
+Tags      : literature, art, language
+Comments  : Off
+Trackback : On
+TagURI    : tag:fnanp.in-ulm.de,2013-09-28:2013/09/28/finnegan
+
+\[Blog owners note: Hosting an essay about Finnegans Wake by best friend
+[@weird\_prophet](https://twitter.com/weird_prophet), who also blogs at 
+<http://phoenixdreaming.wordpress.com> but felt that it didn't really fit in
+with her regular content there. I said anything fits here. A pdf of this essay
+can be downloaded
+[here](http://fnanp.in-ulm.de/temp/Finnegan_paper_revision_AAA.pdf).
+For your online reading pleasure, it is also included below. Note that the
+formatting of the References section might be a bit wonky, I didn't find a
+good way to do that in
+[markdown](http://daringfireball.net/projects/markdown/). Anyway, here goes:\]
+
+# *Finnegans Wake*: "The Ant and the Grasshopper" #
+## A (Divine) Journey into Day (and Out of Time) ##
+
+Christina Scholz
+
+James Joyce’s *Finnegans Wake* is very much a novel about language, and about
+what language can perform. It is at the same time representing reality and
+presenting language (and the various functions of language). If you take a look
+at Joyce’s books in a chronological order from *Dubliners* over *A Portrait of the
+Artist as a Young Man* and *Ulysses* to *Finnegans Wake*, there is a distinct shift
+from a realist world-making to a language-oriented text-making. Joyce achieves
+this by use of generators (cf. Mahler 2010: 109) - recombining elements or even
+words from different languages, resulting in words that, when being read,
+through certain patterns, similarities and free association, produce other
+words (cf. Freudian slips, or, as discussed later on, so-called ‘mondegreens’).
+
+Through the medium of (highly programmatic) language and text-making, Joyce
+produces (rather than reproduces) the world, the city of Dublin, a set of
+archetypical (and thus constantly shifting, metamorphosing) characters –
+including allusions to, and connections with, the whole of Western culture (at
+least up to the time of his writing), and possibly even transcending it. The
+text creates and re-creates itself endlessly, not even having a conventional
+beginning and ending. Similarly (maybe even consequentially), there is no
+‘solution’ or ‘ideal’ reading, no assumed “only way” it could have been
+intended by the author. This way a ‘heretical’ text is created (cf. possible
+allusions to Milton in the following interpretation of a selected passage).
+
+Thus, the reader’s task is not to ‘solve’ it, but to surrender to the ‘game’
+(cf. Mahler 2010: 111) and find more and more possibilities of ‘what to do with
+the text’, and perhaps even in what ways the text will affect the reader (and
+their approach, their ways of reading and interpreting a certain passage).
+Since the language used in *Finnegans Wake* is clearly distinct from an ordinary,
+everyday use of language, it is in a way related to poetry (even where the text
+appears to be prose, or at least related to prose), which allows for the
+assumption that the author is playing with language, and that the readers might
+decode more and more of the text by playing with it as well. They are
+encouraged to bring in more than just the semiotic meaning, more than just the
+signified(s), to track down the constantly shifting meanings (as in metaphor,
+as opposed to allegory, cf. Miéville 2011), the seemingly endless
+possibilities.
+
+The first effect this unusual use of language has on the reader is disturbing -
+bringing to the readers’ attention that this is not an everyday text, shifting
+their focus to the use and function of language rather than content, and
+guiding them away from a conventional (maybe habitual) interpretation, and
+method of interpretation. Klaus Reichert aptly compares this effect to
+Šklovskij’s concept of estrangement or defamiliarization (Reichert 1989: 184).
+The readers’ impulse is then to ‘make sense’ of the text. Any unusual text, and
+especially one that seemingly opaque, containing so many neologisms,
+intertextuality, etc. demands additional work (and possibly creativity) from
+its readers. So what to do with this self-generating text?
+
+Our usual approach in decoding a text is to translate it from the sign, the
+language to its meaning: interpretation, making meaning. If we reverse this
+‘game’ (cf. Mahler 2010: 111ff) and, as suggested by Joyce’s creative wordplay,
+go back again from the meaning to the code, to focus on language itself,
+meaning is presented as material that seems to be there as material only (i.e.
+language as such is foregrounded). If we as readers surrender to this game, we
+are forced to consider the way language works and to think about the (usually)
+hidden aspects of language that are not transparent in everyday language use.
+Joyce’s use of language throws us back from a first (easy) interpretative
+reading to a self-referential level of language, which slows down the reading
+process (very much like reading poetry, which almost suggests itself
+considering his use of alliteration, homonyms, homophones, etc), intensifies
+the focus on the elements and uses of language, and in the end helps attain an
+increasingly wide range of possible interpretations as more and more
+associations manifest themselves.
+
+In addition, it’s helpful to look for similar words in other languages, similar
+names in literature, etc. Every possible layer of our culture until (at least)
+Joyce’s time is referred to throughout the book – thus a never-ending text, and
+an encyclopaedia of culture, a ‘lexicon of life’ (Füger 1994: 259), is
+produced. Language is revealed as a construct that at the same time creates
+other (cultural, societal) constructs on a world-level. And finally, among
+other things, the book is also a treatment of our concept of time. Already the
+title suggests two opposite concepts of time in one space: Linear time vs.
+cyclical time.
+
+
+The following is one possible reading of a passage from *Finnegans Wake*, i.e.
+the Grasshopper’s ballad from “The Ant and the Grasshopper” in Book III (Joyce.
+*Finnegans Wake*: 418f).
+
+
+## 1\. Some preliminary questions ##
+
+### Why the ballad from "The Ant and the Grasshopper"? What kind of reading? ###
+
+The ballad of “The Ant and the Grasshopper” is a piece of poetry contained in a
+longer prose chapter. This makes it one of many breaks in form and style, and
+it also shows the necessity of a different reading approach. When reading
+poetry, one has to slow down and pay more attention to elements that feature in
+prose texts to a lesser degree, if at all, e.g. sounds, alliteration, rhythm /
+metre, alternative meanings (through the use of generators, but also through
+literary, historical or cultural context, or free association). Atmosphere
+seems to be as important as context. Besides, the passage is a ballad, recited
+or probably sung by the character of the Grasshopper (or Gracehoper, another
+transformation of Shem the penman) to the character of the Ant (alternatively
+Ondt, referring to Shaun the postman), so it is very closely related to any
+kind of song – and once again reminiscent of the ballad of “Finnegan's Wake”
+and the whole topic of birth and re-birth and cycles within cycles.
+
+### Why is this passage worthwhile? Where is it? ###
+
+The fable of the Ant and the Grasshopper is contained in what is known as Book
+III of *Finnegans Wake*: The Book of the People. The material of Book III is
+largely the dream of Mr. Earwicker between the late hour of his arrival in bed
+and the first crack of dawn (Campbell 1959: 256). Its main figure is Shawn the
+Postman, who is envisioned as a great man of the future, carrying forward the
+tradition of his ancestors and winning with ease the battles lost by his father
+(ibid). But despite his heroic deeds, Shawn is not depicted as a hero: he is
+only reluctantly accepted by the people, who after his moment of fruitless
+triumph sit over him in judgement (Campbell 1959: 256f).
+
+In Chapter I (“Shaun before the People”), he gives a speech in front of ‘the
+people’ (i.e. the 29 maidens already encountered in an earlier chapter) to
+convince them that he is more meritorious than his brother Shem. In the course
+of his speech he tells them the fable of the Ant and the Grasshopper,
+transformed here to the Ondt and the Gracehoper, to illustrate his arguments.
+
+Chapter II (“Jaun [Don Juan] & Iseult”) and Chapter III (“Yawn Recumbent” [the
+inquest]) are also part of HCE’s dreams, and Chapter IV (“HCE and ALP in their
+bed”) leads back to HCE and ALP in their bed leading up to the dawn of a new
+day.
+
+The constant transformations of characters and situations and the underlying
+dream logic provide an interesting starting-point for various readings that
+differ from everyday prose interpretations. One could argue that they even
+justify going off on a tangent and following up ‘clues’ provided by misreadings
+or associations that might seem far-fetched at first. 
+
+
+### What happens? What mechanisms are at work?
+
+The fable of the Ant and the Grasshopper (Joyce, *Finnegans Wake*: 263ff) is
+based on Aesop's fable of the same title. The metrical foot used in the
+Grasshopper's (or Gracehoper's) song is an anapaest, a Greek metre, which
+brings the original fable to mind. Simultaneously it is reminiscent of the
+ballad of “Finnegan’s Wake”, especially since it takes up the theme of death
+and life (or death and rebirth, according to whether it is seen from a
+perspective using the concept of linear time, or one using the concept of
+cyclical time – both of which are repeatedly referred to in the text). Other
+recurring motives are: Egyptian mythology, insects, Biblical themes, rebellion
+of the son against his father (including a possible association with Milton's
+Lucifer), order vs. chaos, literature, philosophy, self-references to Joyce
+(and his work), and possibly even a suggestion of mysticism, the decoding of
+messages, initiation.
+
+Switching from an interpretative reading to one in which language itself is
+foregrounded whenever the use of language suggests it brings out playful new
+versions of the fable as well as an encyclopaedia of cultural and historical
+references, and a seemingly never-ending scope as to possible meanings. In
+addition, each re-reading of the passage will necessarily change the text and
+its functions, thus re-making *Finnegans Wake* over and over again (in accordance
+with its major themes, and the story of its hero, HCE).
+
+
+## 2\. Reading the Gracehoper's Ballad ##
+
+The paragraph preceding the ballad serves as a sort of introduction and sets
+the scene:
+
+*A darkener of the threshold. Haru? Orimis, capsizer of his ant-boat, sekketh
+rede from Evil-it-is, lord of loaves in Amongded. Be it! So be it!* (Joyce.
+*Finnegans Wake*: 418)
+
+What is to follow seems to be a (rite of) passage, an in-between, a transition.
+Possibly even an initiation. Even though *haru* means spring (the season, which
+is also a sort of beginning, a transition) in Japanese, it is simultaneously
+reminiscent of the Egyptian god Horus (or Heru), who is among other things god
+of the sky, god of war and god of protection and appears in various forms that
+might even be different deities subsumed under one name. As HerusaAset (Heru,
+son of Isis), he is responsible for the pharaoh and represents both the royal
+heir and the newborn sun (cf. Hill 2010). “Orimis”, with its possible reference
+to Osiris (lord of the underworld, master over life and death) strengthens this
+interpretation, together with the “ant-boat” and “Evil-it-is”, the name of the
+rudder (cf. Ito 2002). His position as lord of the underworld is reflected
+again in “Amongded”, phonetically evoking an image of this dark realm across
+cultures: “among the dead”. And of course the implied father-son relationship
+brings us back to HCE (Earwicker, whose name comes up as an additional
+association to the insect theme that dominates this passage) and Shaun (the
+narrator), the rebellious son.
+
+The threshold is darkened, but at the same time, we are following HCE’s dreams
+through the night towards morning, transitioning various states of order and
+chaos, passing thresholds and moments that again dissolve into a fluid stream
+of time. The ant-boat inevitably evokes another boat, the sun-boat, and, in
+accordance with the omnipresent theme of death and rebirth, the linear journey
+into night becomes a cyclical journey back into day. Finally, the invocation
+“so be it!” tells us that it is starting, and we realize that we are already on
+our way. The Gracehoper begins his song.
+
+At the same time it is also an ending of sorts (which implies the crossing of
+another threshold): “so be it” is, among other things, a translation of
+ainsi-soît-il, the French for amen.
+
+
+*The thing pleased him andt, and andt,* (Joyce. *Finnegans Wake*: 418)
+
+“The thing pleased him” immediately reminds us of the book of Genesis in the
+Bible. A world is created, which is also an ongoing process (“and and and”).
+´Through repetition, this ongoing process also names and re-names the character
+to whom this ballad is addressed, the transformed ant: identity is assigned,
+but it is always different (cf. Finnegan/HCE).
+
+*He larved and he larved on he merd such a nauses* (Joyce. *Finnegans Wake*: 418)
+
+What is repeated this time? The insect’s (the ant’s but also the grasshopper’s)
+first stage of development (right after its creation in the previous line): the
+larva (McHugh 1980: 418). Another beginning establishes the insect theme. (Note
+here that the earwick, as in Earwicker, is also an insect [cf. Ito 2002]. Even
+the shifting symbols “stay in the family”.) In addition there is reference to
+its origin on a meta-textual level: if we read “merd” as *merde* (McHugh 1980:
+418), not only nauseating (ibid), *ad nauseam* (referring to the repetitions),
+but also reminding us of Shem the penman and the ink he made from his
+excretions.
+
+*The Gracehoper feared he would mixplace his fauces.* (Joyce. *Finnegans Wake*:
+418)
+
+For the first time, the alternative name Gracehoper is used, which suggests
+that our narrator is a believer in God, and also a repentant sinner. “Mixplace”
+tells us that things are not in their proper places; we find ourselves in a
+place of chaos rather than order. “Fauces”, which according to McHugh (1980:
+418) suggests the almost homonymous “forces”, might provide an additional layer
+of meaning by showing us what it is that’s out of place. If the order of things
+is reversed, this could refer to the rebellion of the son, or – if we go along
+with the established biblical theme, the Fall of Lucifer (either in the Bible
+or in Milton’s “Paradise Lost”, making the Adversary more of a hero).
+
+*I forgive you, grondt Ondt, said the Gracehoper, weeping,* (Joyce. *Finnegans
+Wake*: 418)
+
+The Gracehoper, trying to re-establish harmony between himself and the Ondt,
+offers forgiveness. Simultaneously, through divine forgiveness, order is (for
+the moment) re-established. Meanwhile, the ant has morphed into the *Ondt*, which
+means “bad”, “painful” in Danish: the Gracehoper’s opposite.
+
+*For their sukes of the sakes you are safe in whose keeping.* (Joyce. *Finnegans
+Wake*: 418)
+
+Here Joyce uses alliterative repetition in the way of Old English ballads
+(three same stresses followed by one different repetition). *Sukes* means
+assistance, according to McHugh (1980: 418). At the same time “whose keeping”
+could also shift to “housekeeping” in an alternative reading (ibid). Of course,
+in accordance with the biblical theme, “safe in whose keeping” is also
+automatically connected with God (who forgives and protects).
+
+*Teach Floh and Luse polkas, show Bienie where’s sweet* (Joyce. *Finnegans Wake*:
+418)
+
+The insect theme continues with *Floh* (“flea”), *Luse* (almost homophonous with
+“louse”) and *Bienie* (Biene meaning “bee”; also connected with sweetness –
+honey). There is also a hidden musical reference: “Luisa’s Polka” by Smetana
+(McHugh 1980: 418).
+
+*And be sure Vespatilla fines fat ones to heat.* (Joyce. *Finnegans Wake*: 418)
+
+The insect in this line is the wasp (“Vespa”; “Vespatilla”). “Be sure
+Vespatilla fines fat ones to heat” completes what the previous line has begun:
+everyone gets their just desserts. Everyone is judged (at the end). “Fining”
+somebody (who deserves it) “to heat” also suggests the threat of hell(fire).
+
+*As I once played the piper I must now pay the count* (Joyce. *Finnegans Wake*: 418)
+
+Again, something seems to be out of order: Of course the proverb that comes to
+mind is “who pays the piper calls the tune”. But “play” and “pay” are too
+easily confused in this line, especially since one would expect the text to say
+“pay the piper”, not “play”. In fact, in my first reading of this passage, I
+accidentally thought it went on, “I must now play the count” (as in *The Prince
+and the Pauper*), which at first made perfect sense in the context of order
+reversed. I only realized my mistake when I read it a second time. But that
+does not mean that the additional meaning generated by such a misreading has to
+be immediately rejected. Hugo Keiper explains this in his 2008 essay on
+another, related kind of misinterpretation, the so-called mondegreen (a
+mis-hearing of song lyrics): 
+
+> [M]ondegreens apparently used to be seen for a long time as some sort of
+> social semiotic taboo that most people left untouched (Keiper 2008: 34). 
+
+If you reject those misinterpretations as unfounded, you
+might miss another crucial aspect, i.e. *what they might reveal about listener’s
+minds* (Keiper 2008: 34). What happens in these instances is that new text is
+produced by the listener. Since many song lyrics (and literary texts) play with
+textual ambiguities, these mondegreens may be a deliberately evoked result -
+with a lot of different outcomes, depending on the listeners’, or readers’,
+backgrounds  (cf. Keiper 2008:39).
+
+> [M]ondegreens can be seen as a marvellous empirical source of actual and
+> everyday interpretations, or rather misinterpretations, of lyric poetry –
+> ‘readings’ that come about quite spontaneously, that is, without the
+> interference of situational factors that may be artificial and distorting, such
+> as filling in questionnaires or answering a researcher’s questions. […] Viewed
+> from this perspective, mondegreens may tell us a great deal about real-life
+> decoding or ‘reading’ of oral texts […], with reference perhaps to some of the
+> mechanisms and constraints affecting the reading of poetry, and of other kinds
+> of literary texts. Keiper 2008:42)
+
+Keiper stresses that the range of possible (and possibly valid) interpretations
+is very wide, and that through the study of mondegreens priority is shifting
+away from concepts like the ‘ideal’ listener or reader (cf. Keiper 2008: 42f).
+
+> [They] provide strong evidence against mainstream models of lit. crit.
+> featuring ideal(ized) readers, who read a text exactly as it is supposedly
+> ‘intended’ or ‘meant’ (or in any case as it 'should be ideally read’ according
+> to a particular critic, or following so-called critical opinion, consensus,
+> etc), and which claim that such readers do so availing themselves of the full
+> context and semiotic potential inscribed in a text. Keiper 2008:43)
+
+Especially an ‘open’ text (cf. Eco 1977) like *Finnegans Wake* with its many
+portmanteau words (cf. Füger 194: 274) and neologisms strongly suggests a wider
+perspective concerning possible ‘readings’ or interpretations, as indicated
+above. Thus, even misreadings can provide valuable additional insights not only
+into how the text is constructed and the implicit possibilities of reading and
+“decoding” it, but also into the mechanisms of the reading process itself and
+the workings of the readers’ minds.  In this context, my (mis)interpretation
+pointing to the recurring motive of reversed order might again justify bringing
+back the theme of the rebellious son, or Milton’s Lucifer – who deems it
+“[b]etter to reign in Hell, then [sic] serve in Heav'n“ (Milton. „Paradise
+Lost“ 1:263). Alternatively (or additionally), the line about paying “the
+count” might suggest paying one’s due – which brings back the notion of order
+re-established.
+
+*So saida to Moyhammlet and marhaba to your Mount!* (Joyce. *Finnegans Wake*: 418)
+
+Mohammed (McHugh 1980: 418), together with Zaida, forms another couple.
+Together with the prophet comes the reference to the mountain (also suggested
+by McHugh 1980: 418). Again the order is reversed (“to your Mount”); there is a
+shift in power. *Saida* in Portuguese means an exit, a way out. Another
+possibility of interpretation is reading “Moyhammlet” as Hamlet (McHugh 1980:
+418), and again we enter a whole subtext of conflict between a (step)son and
+(step)father. On the biblical level of interpretation we have *marhaba*, which is
+Arabic with Aramaic roots. Incidentally, Aramaic is the original language of
+several sections of the Bible, and also the language supposedly spoken by
+Jesus. *Mar* means “God”; *haba* means “love”.
+
+*Let who likes lump above so what flies be a full’un;* (Joyce. *Finnegans Wake*:
+418)
+
+Flies continue the insect theme; simultaneously there is reference to a
+universal order of things: as above, so below; to each his own.
+
+*I could not feel moregruggy if this was prompollen.* (Joyce. *Finnegans Wake*: 418)
+
+Here, “moregruggy” again refers to an ant (McHugh 1980: 418), “prompollen” to a
+beetle (ibid).
+
+*I pick up your reproof, the horsegift of a friend,* (Joyce. *Finnegans Wake*: 418)
+
+On the plot level, read literally, the grasshopper takes the ant’s rebuke,
+probably graciously (as the preceding and following lines suggest).
+Additionally, this line evokes the proverb “never look a gift horse in the
+mouth” (McHugh 1980: 418), and is also suggestive of the Trojan horse:
+
+> Equo ne credite, Teucri! Quidquid id est, timeo Danaos et dona ferentis. – “Do
+> not trust the horse, Trojans! Whatever it is, I fear the Danaans (Greeks), even
+> when they bring gifts”. (Virgil. “Aeneid II” 49) 
+
+Joyce also alludes to Virgil in other parts of *Finnegans Wake*, and he is a
+fitting travel companion here in the night and the underworld of HCE’s dreams,
+since he is also Dante’s guide into hell in the *Inferno*.
+
+*For the prize of your save is the price of my spend.* (Joyce. *Finnegans Wake*: 418)
+
+This line gives us a sense of order and justice. Literally read, it also brings
+us back to the morale of  “The Ant and the Grasshopper”.
+
+*Can castwhores pulladeftkiss if oldpollocks forsake’em* (Joyce. *Finnegans Wake*:
+418)
+
+Another couple of twin brothers is alluded to here: Castor & Pollux (McHugh
+1980: 418), who remind us of the twins Shaun and Shem. “Forsake’em” continues
+the biblical theme: *“Eli, Eli, lama sabachthani” – “My God, my God, why hast
+thou forsaken me?”* (The King James Bible 2011: Matthew 27:46) are the last
+words of Jesus on the cross to his father, and again they are in Aramaic.
+
+Thus, also the father/son theme is continued (on another level: Shaun vs. HCE).
+
+Literally, rhetorically, the grasshopper is defending himself, as continued in
+the following line:
+
+*Or Culex feel etchy if Pulex don’t wake him?* (Joyce. *Finnegans Wake*: 418)
+
+More insects: *Culex* is a gnat, *pulex* a flea; “etchy” can be read as “itchy”
+(McHugh 1980: 418).
+
+The Gracehoper continues his defence (using a rhetorical question, its meaning
+along the lines of “I can’t help it; it’s in my nature”) and implicitly appeals
+to the Ondt for mercy (as in the fable).
+
+*A locus to loue, a term it t’embarrass,* (Joyce. *Finnegans Wake*: 418)
+
+The Grasshopper’s plea: “A locust” (McHugh 1980: 418) - referring to himself -
+“to love; a termite to embrace” (ibid). The abbreviated “t’” in “t’embarrass” is
+suggestive of a different abbreviation in French: (je) t’embrace. At the same
+time, “a term it t’embarrass” is very close to “(even) a termite would be
+embarrassed”, again an appeal to the Ant.
+
+*These twain are the twins that tick Homo Vulgaris.* (Joyce. *Finnegans Wake*: 418)
+
+The twins are mentioned again, as if he was saying that brothers belong
+together.
+
+“Tick” can refer to both the animal (McHugh 1980: 418) and time (another theme
+which is going to be continued).
+
+The Gracehoper’s entreaty: all insects are equal; difference is not the way
+out.
+
+All of the following rhetorical questions also reinforce the point the
+Grasshopper is making:
+
+*Has Aquileone nort winged to go syf Since the Gwyffyn we were in his farthest
+drewbryf And that Accident Man not beseeched where his story ends Since
+longsephyring sighs sought heartseast for their orience?*  (Joyce. *Finnegans
+Wake*: 418)
+
+In addition we have a sense of direction, spanning the whole world: north,
+south, occident, orient.
+
+“Gwyffin” denotes a griffin, “drewbryf” a drawbridge (McHugh1980: 418).
+
+(Not) *besiegt* literally means (not!) conquered (McHugh 1980: 418), but (with
+the drawbridge up) can also be “besieged” (cf. the Trojan war and the
+“horsegift”). If we read “beseeched”, though, as literally in the text, we
+remain with the Gracehoper’s plea. This also fits the “longsephyring” that can
+be picked apart into “longsuffering” and “zephyrs” (McHugh 1980: 418).
+
+Finally, there is the theme of time and death again: “where his story ends”;
+and “heartseast“, homophonous with ”heart ceased”.
+
+*We are Wastenot with Want, precondamned, two and true,* (Joyce. *Finnegans Wake*:
+418)
+
+Another idiom: “Waste not, want not” (McHugh 1980: 418), and also some of the
+recurring religious motives: “(pre-)condemned” and “damned” allude to hell
+again, and also to original sin and to the Fall of Lucifer (Milton again, and
+the uprising against a tyrannical father figure).
+
+*Till Nolans go volants and Bruneyes come blue.* (Joyce. *Finnegans Wake*: 418)
+
+*Nolens volens* means “willy nilly” (McHugh 1980: 418). In accordance with the
+preceding line, order has again changed to chaos. There is also a notion of
+time: “Till Nolans go volants” (possibly French for “flying”) “and Bruneyes
+come blue” sounds nonsensical (especially if you read “brown eyes” for
+“Bruneyes”), which could mean something like “till the end of the world /
+doomsday”. It is also reminiscent of the (seemingly nonsensical, or at least
+wildly improbable) prophecy in Macbeth: *Till Birnam Wood remove to Dunsinane*
+(Shakespeare. The Tragedy of Macbeth I:III:2).
+
+An additional meta-reference is evoked, too: The “Nolans” in combination with
+the “Bruneyes” remind one of Giordano Bruno (of Nola) whose theories, together
+with those of Giambattista Vico, support a lot of the structure of *Finnegans
+Wake* (cf. Füger 1994: 267f). In this case it might reinforce the Grasshopper’s
+plea for confraternity: *every power in nature must evolve an opposite in order
+to realize itself and opposition brings reunion* (Bruno, quoted in Füger 1994:
+268).
+
+
+*Ere those gidflirts now gadding you quit your mocks for my gropes* (Joyce.
+*Finnegans Wake*: 418)
+
+More insects: “Gidflirts” shifts to gadflies (McHugh 1980: 418). There is also
+an allusion to the Mookse and the Gripes (ibid), another passage in *Finnegans
+Wake* (Joyce: *Finnegans Wake* 152ff), which opens up a whole new level of meta-
+and subtext, since it contains overt references to Joyce himself and his
+writing of *Finnegans Wake*.
+
+*“[…] you quit your mocks for my gropes”*: Is the Gracehoper still pleading, or
+is he now threatening the Ondt? He seems to be mentioning a deadline, too, but
+that could also refer to the approach of winter.
+
+*An extense must impull, an elapse must elopes,* (Joyce. *Finnegans Wake*: 418)
+
+One more reference to order and dependency: “an elapse” (time) “must elopes”
+(not time; an exit) – either “time flies” (if we are talking about linear
+time), or not at all (“elopes”, cyclical / non-linear time).
+
+
+*Of my tectucs takestock, tinktact, and ail’s weal*; (Joyce. *Finnegans Wake*: 418)
+
+“Of my tactics take stock” (McHugh 1980: 418); “tic tac”, “all’s well” (ibid) –
+which can be continued with “that ends well”, another Shakespeare reference,
+and again an end.
+
+“Ail” (pain) becomes “weal” (happiness, prosperity, welfare) – if the Ondt
+gives in.
+
+The rhythm and alliterative repetitions mimic the ticking of a clock as well.
+
+*As I view by your farlook hale yourself to my heal.* (Joyce. *Finnegans Wake*:
+418)
+
+“Hale” and “heal” go well with the “all’s well” from above; while “to my heel”
+suggests another plea: “follow me; we belong together” (cf. the twins). This
+notion of sharing is also illustrated in the following lines:
+
+
+*Partiprise my thinwhins whiles my blink points unbroken on
+Your whole’s whereabroads with Tout’s trightyright token on.* (Joyce. *Finnegans
+Wake*: 419)
+
+In addition, “whiles” can also mean time (linear as well as non-linear: an
+expanse of time, or simultaneity). A tout is a solicitor or barker.
+
+
+*My in risible universe youdly haud find
+Sulch oxtrabeeforeness meat soveal behind.* (Joyce. *Finnegans Wake*: 419)
+
+“In risible” contains “invisible” and, simultaneously, laughter (McHugh 1980:
+419) - but separated, thus already implying a possible negation. There is also
+a reference to Aristotle and Aquinas’ “visible universe” (McHugh 1980: 419) –
+but at the same time “invisible” suggests things behind things (cf. mysticism).
+The next line contains “ox”, “beef”, “meat”, “veal” (McHugh 1980: 419), but
+also *“mit soviel”*+”behind” – s. above.
+
+
+*Your feats end enormous, your volumes immense,* (Joyce. *Finnegans Wake*: 419)
+
+Again, an “end” of sorts, and in “your volumes immense” a possible allusion to
+all the cultural/literary references in the text (and possible hidden meanings
+alluded to in the previous line).
+
+*(May the Graces I hoped for sing your Ondtship song sense!),* (Joyce. *Finnegans
+Wake*: 419)
+
+Again, the Gracehoper is referring to himself and his name. The Graces he hopes
+for are obviously personified in this line, referring to the Greek Graces, the
+goddesses of charm, beauty and creativity. “Sing your song sense” might mean
+that the seemingly opaque text needs to be decoded in order to make sense, to
+give up its hidden meaning(s), as mentioned above.
+
+*Your genus its worldwide, your spacest sublime!* (Joyce. *Finnegans Wake*: 419)
+
+Here, “spacest” might (also) translate to “species” (McHugh 1980: 419).
+
+*But, Holy Saltmartin, why can’t you beat time?* (Joyce. *Finnegans Wake*: 419)
+
+“Saltmartin” can mean both St Martin and another insect (McHugh 1980: 419).
+
+The imploring “why can’t you beat time?” might (among other things) be a
+reference to the song (the ballad) and its rhythm. Re-establishing the theme of
+time, it might also imply that the Ondt can’t “beat time”, can’t escape linear
+time. It is always planning ahead (cf. the fable), remaining in linear time; it
+symbolizes the worker and also stands in for the postman. The Gracehoper on the
+other hand, the penman, the artist, spends his life outside linear time (in
+elysium, in cyclical time). As in the original fable, the ant is slave to time,
+while the grasshopper is simply not concerned.
+
+Finally, in the following paragraph, Joyce uses a (version of a) formula that
+not only symbolizes another ending but also adds a sort of morale, like a fable
+should have:
+
+*In the name of the former and of the latter and of their holocaust. Allmen*
+(Joyce. *Finnegans Wake*: 419).
+
+The terms “former” and “latter” (apart from referring to the father as the one
+who came before and the son as the one to later take his place, also cf. Shaun
+& HCE) only make sense in relation to time.
+
+“Holocaust” means: an end to that. There is also the obvious allusion to death.
+
+In this context, apart from the obvious *amen*, “all men” might mean: may
+all men be liberated from linear time (and “saved” in the religious sense:
+attain grace).
+
+*Finnegans Wake* doesn’t have a beginning or end. It begins and ends in
+mid-sentence, thus forming an endless cycle. Every re-reading will inevitably
+be different, both because of the previous knowledge of the text as such, and
+because of a difference in background knowledge and a multitude of personal
+factors that might have changed since the last reading. This, together with
+Joyce’s abundant use of generators, of portmanteau words and neologisms (as
+shown above), makes the novel an interesting and fecund text for possible
+interpretation, and also for finding out more about different processes of
+reading and interpretation and about the readers’ minds. It is therefore
+necessary not to stipulate a concept of an “ideal reader” or of a “right way”
+to interpret anything about it, but rather to approach it with an open mind,
+and to engage in playful interaction with the text.
+
+My interpretation of the Gracehoper’s ballad from “The Ant and the
+Grasshopper” is and can only be one of a seemingly endless number of possible
+readings, a recording of a moment in time. The next time I read this passage,
+it will already have shifted, maybe acquired new meanings, maybe lost a few of
+the ones I saw before. It has already expanded since the first time I read the
+text, and I expect it to undergo many more transformations.
+
+In this way, I hope I have succeeded in providing a plausible example of
+how *Finnegans Wake* works, what it does to the reader, and what results from
+creative interaction with the text. I think the best way to describe it in only
+a couple of words is - like the novel, and even the title itself - because of
+its inherent ambiguity more than the seeming paradox one might see, and
+hopefully transcending it: Constant / Change. 
+
+## References ##
+
+### Primary Sources ###
+
+Anonymous (19th Century). “Finnegan’s Wake”. [Online] Western Michigan
+University. <http://homepages.wmich.edu/~cooneys/poems/fwake.html> [2011, April
+20].
+
+Jacobs, Joseph (ed, 1894). The Fables of Aesop. London: Macmillan.
+
+Joyce, James (1992/2000). Finnegans Wake [1939]. Introd. S. Deane. Modern
+Classics. London: Penguin.
+
+Milton, John (1674). “Paradise Lost”. [Online] Dartmouth Milton Reading Room.
+<http://www.dartmouth.edu/~milton/reading_room/pl/book_1/index.shtml> [2011, 
+April 20].
+
+Shakespeare, William (1997). The Tragedy of Macbeth [1606]. In: The Complete
+Works of William Shakespeare. [Online] Project Gutenberg. 
+<http://www.gutenberg.org/cache/epub/1129/pg1129.html> [2011, April 20].
+
+“The Gospel According to Saint Matthew” (2011).The King James Bible [1611].
+[Online] Project Gutenberg. 
+<http://www.gutenberg.org/files/10/10-h/10-h.htm#The_Gospel_According_to_Saint_Matthew>
+[2011, April 20].
+
+Virgil (2008). “Aeneidos. Liber II”.[Online] Project Gutenberg.
+<http://www.gutenberg.org/files/227/227-h/227-h.htm#liber02> [2011, April 20].
+
+
+### Secondary Sources ###
+
+Campbell, Joseph and Henry M. Robinson (1944/1959). A Skeleton Key to
+Finnegans Wake. London: Faber & Faber.
+
+Eco, Umberto (1973/1977). Das offene Kunstwerk. Frankfurt a.M.: Suhrkamp.
+
+Füger, Wilhelm (1994). James Joyce. Epoche – Werk – Wirkung. München: C.H.
+Beck.
+
+Hill, J. (2010). “Horus the child”. [Online] Ancient Egypt Online. 
+<http://www.ancientegyptonline.co.uk/horuschild.html> [2011, April 20].
+
+Ito, Eishiro (2002). “In the buginning is the woid”. [Online] Atelier Aterui.
+<http://p-www.iwate-pu.ac.jp/~acro-ito/Joycean_Essays/FW414_buginning.html> 
+[2011, April 26].
+
+Keiper, Hugo (2008).”’It's a hard egg’: Mondegreens and other (mis)construals
+of pop lyrics – and what they can teach us” [2008]. In: Nada Šabec. 
+Literature and Culture in a Global Context. Ed. English Language. Zora 57. 
+Maribor: 32-45.
+
+McHugh, Roland (1980). Annotations to Finnegans Wake. London: Routledge.
+
+Miéville, China (2011). “The Weird: a discussion of fiction and politics with
+China Miéville”. [Online] Backdoor Broadcasting Company.
+<http://backdoorbroadcasting.net/2011/03/the-weird-a-discussion-of-fiction-and-politics-with-china-mieville>
+[2011, March 5].
+
+Reichert, Klaus (1989). Vielfacher Schriftsinn. Zu Finnegans Wake. Frankfurt
+a.M.: Suhrkamp.
