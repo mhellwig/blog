@@ -3,7 +3,7 @@
     <head>
         <title>ein Blog</title>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-        <meta name="date" content="2013-09-28T17:09:35">
+        <meta name="date" content="2014-01-07T23:44:54">
         <meta name="robots" content="index, follow">
         <meta http-equiv="content-language" content="en">
         <link rel="stylesheet" type="text/css" href="./css/all-min.css">
@@ -26,6 +26,44 @@
         </div>
 	<div id="main">
         <div class="article">
+            <h2 class="title"><a href="./2014/01/07/01-arp3.html">arp3.</a></h2>
+            <div class="info">
+                Dienstag, 07. Januar 2014,
+		<ul class="tags">
+		    <li>Tags:</li>
+                    <li>
+                        <a href="./tags/computers.html">computers</a>,
+                    </li><li>
+                        <a href="./tags/networking.html">networking</a>,
+                    </li><li>
+                        <a href="./tags/android.html">android</a>
+                    </li>
+                </ul>
+            </div>
+            <p>An Update to the saga that started
+<a href="http://fnanp.in-ulm.de/blog/2013/06/10/01-arp.html">here</a>  and continued
+<a href="http://fnanp.in-ulm.de/blog/2013/06/11/01-arp2.html">here</a>.</p>
+<p>Now, the phone (a Motorola Droid 4) is running
+<a href="http://www.cyanogenmod.org">Cyanogenmod</a>, to be precise the "stable"
+version for this phone, which is 10.1.3, meaning Android 4.2.2. </p>
+<p>And I am still seeing the problem described in my earlier posts, namely
+that an arp entry for a host that can be reached locally is not removed
+from the arp table when the phone leaves the network for which this is
+true.</p>
+<p>Again, the scenario:</p>
+<p>Phone is online in wifi A, host X is in the same network and can be
+reached without passing through a router.</p>
+<p>Phone is moved to another location, where wifi B (no relation with A) is
+available, so phone connects to that. Phone is now unable to reach host X
+as phone believes host X to <em>still</em> be a locally reachable host but
+offline or invalid or whatever. When turning off the wifi (i.e. using 3G
+instead), the host becomes reachable (as the arp table is specific for
+each network interface). A reboot clears the arp table and makes normal
+networking possible again.</p>
+<p>As far as I understand the issue, this is not correct behaviour.</p>
+	  <hr>
+	  <hr>
+        </div><div class="article">
             <h2 class="title"><a href="./2013/09/28/01-finnegan.html">finnegan.</a></h2>
             <div class="info">
                 Samstag, 28. September 2013,

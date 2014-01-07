@@ -1,0 +1,35 @@
+Title     : arp3.
+Author    : michael
+Created   : 2014-01-07T23:44:54
+Tags      : computers, networking, android
+Comments  : Off
+Trackback : On
+TagURI    : tag:fnanp.in-ulm.de,2014-01-07:2014/01/07/arp3
+
+An Update to the saga that started
+[here](http://fnanp.in-ulm.de/blog/2013/06/10/01-arp.html)  and continued
+[here](http://fnanp.in-ulm.de/blog/2013/06/11/01-arp2.html).
+
+Now, the phone (a Motorola Droid 4) is running
+[Cyanogenmod](http://www.cyanogenmod.org), to be precise the "stable"
+version for this phone, which is 10.1.3, meaning Android 4.2.2. 
+
+And I am still seeing the problem described in my earlier posts, namely
+that an arp entry for a host that can be reached locally is not removed
+from the arp table when the phone leaves the network for which this is
+true.
+
+Again, the scenario:
+
+Phone is online in wifi A, host X is in the same network and can be
+reached without passing through a router.
+
+Phone is moved to another location, where wifi B (no relation with A) is
+available, so phone connects to that. Phone is now unable to reach host X
+as phone believes host X to _still_ be a locally reachable host but
+offline or invalid or whatever. When turning off the wifi (i.e. using 3G
+instead), the host becomes reachable (as the arp table is specific for
+each network interface). A reboot clears the arp table and makes normal
+networking possible again.
+
+As far as I understand the issue, this is not correct behaviour.
