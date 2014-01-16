@@ -54,7 +54,7 @@ that he does receive. It can become quite confusing.
 There are extensions to the XMPP protocol which are labelled
 "XEP-something" where "something" is a number. Those extensions (there are
 quite a lot of them) are listed at
-[](https://xmpp.org/xmpp-protocols/xmpp-extensions/). Some of those were
+[this link](https://xmpp.org/xmpp-protocols/xmpp-extensions/). Some of those were
 created explicitly with the goal of solving the problem I describe above.
 The first interesting one here is [XEP-0184: Message Delivery
 Receipts](https://xmpp.org/extensions/xep-0184.html) which allows clients

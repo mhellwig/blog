@@ -4,12 +4,12 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2014-01-16T17:19:31Z</updated>
+    <updated>2014-01-16T17:23:13Z</updated>
     <entry>
         <title>woes.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/16/01-woes.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2014-01-16:2014/01/16/woes</id>
-        <updated>2014-01-16T17:19:27Z</updated>
+        <updated>2014-01-16T17:23:08Z</updated>
         <published>2014-01-16T16:49:29Z</published>
         <category term="computers"/><category term="networking"/><category term="android"/><category term="xmpp"/>
         <author>
@@ -56,7 +56,7 @@ that he does receive. It can become quite confusing.</p>
 <p>There are extensions to the XMPP protocol which are labelled
 "XEP-something" where "something" is a number. Those extensions (there are
 quite a lot of them) are listed at
-<a href="https://xmpp.org/xmpp-protocols/xmpp-extensions/"/>. Some of those were
+<a href="https://xmpp.org/xmpp-protocols/xmpp-extensions/">this link</a>. Some of those were
 created explicitly with the goal of solving the problem I describe above.
 The first interesting one here is <a href="https://xmpp.org/extensions/xep-0184.html">XEP-0184: Message Delivery
 Receipts</a> which allows clients
