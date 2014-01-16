@@ -42,7 +42,8 @@
                     </li>
                 </ul>
             </div>
-            <h1>Intro (what is this about)</h1>
+            <p><strong> Update: made some more inline links to the bug reports </strong></p>
+<h1>Intro (what is this about)</h1>
 <p>So for a long time I've had an <a href="https://xmpp.org">XMPP</a> (historically also
 known as <a href="https://en.wikipedia.org/wiki/Jabber">Jabber</a>) account on
 <a href="http://web.jabber.ccc.de">jabber.ccc.de</a>. There are a lot of reasons for
@@ -187,30 +188,30 @@ default), the sender receives an error message from the server.</p>
 <p>Of the senders tested (Bitlbee, Psi, Pidgin, Yaxim for mobile to mobile),
 initially <em>none</em> showed the error message to the user (see bug reports
 below). </p>
-<p>Yaxim fixed that bug on the same day and now shows a red cross over the
-message concerned as well as an extra message in the chat stream that
-reads "recipient-unavailable(-1)" and has a red background.</p>
-<p>BitlBee acknowledged the bug on IRC and discussed how they might fix it.
-Bitlbee has the problem that up untill now it doesn't generate message IDs
-and it is (AFAIK) not easy to change the way a line that has already been
-written to the IRC client is displayed after the fact. The discussion went
-in the direction of basically putting a timestamp into the message-ID,
-thereby allowing a message of the type "your message from 'time' could not
-be delivered" to be generated upon error. Since at least one developer has
-tested the problem together with me I presume the bug is being worked
-upon.</p>
-<p>Psi have so far not reacted to the bug report.</p>
-<p>Pidgin have so far not reacted to the bug report.</p>
+<p>Yaxim fixed that <a href="https://github.com/pfleidi/yaxim/issues/108">bug</a> on the same day and now shows a red cross
+over the message concerned as well as an extra message in the chat stream
+that reads "recipient-unavailable(-1)" and has a red background.</p>
+<p>BitlBee acknowledged the <a href="http://bugs.bitlbee.org/bitlbee/ticket/1114">bug</a> on IRC and discussed how they
+might fix it.  Bitlbee has the problem that up untill now it doesn't
+generate message IDs and it is (AFAIK) not easy to change the way a line
+that has already been written to the IRC client is displayed after the
+fact. The discussion went in the direction of basically putting a
+timestamp into the message-ID, thereby allowing a message of the type
+"your message from 'time' could not be delivered" to be generated upon
+error. Since at least one developer has tested the problem together with
+me I presume the bug is being worked upon.</p>
+<p>Psi have so far not reacted to the <a href="https://github.com/psi-im/psi/issues/104">bug report</a>.</p>
+<p>Pidgin have so far not reacted to the <a href="https://developer.pidgin.im/ticket/15864">bug report</a>.</p>
 <h2>server side</h2>
 <p>Prosody implements XEP-0198 correctly, as far as I can see. Nevertheless,
 I would prefer if the second option ("or committing the stanza to offline
 storage") were available as well since that would increase comfort for the
 user (no need to resend messages). After discussion in the chat with
-Prosody developers, I filed a wishlist-bug for this (see below).</p>
+Prosody developers, I filed a <a href="http://code.google.com/p/lxmppd/issues/detail?id=383">wishlist-bug</a> for this.</p>
 <h2>receiving side</h2>
-<p>Yaxim works as advertised (after fixing the bug mentioned below and
-above). The version that incorporates these bug fixes should make its way
-to the Play Store "later this week".</p>
+<p>Yaxim works as advertised (after fixing the <a href="https://github.com/pfleidi/yaxim/issues/108">bug</a> ). The version
+that incorporates these bug fixes should make its way to the Play Store
+"later this week".</p>
 <p>Chatsecure works as advertised some of the time. And then it doesn't. And
 then it has trouble reconnecting. And then it takes 5 minutes to
 reconnect. And then it sometimes doesn't see contacts as online even
@@ -242,21 +243,17 @@ detailed above.</p>
 access to an iPhone. I would be happy to hear about it though.</p>
 <h1>bugs found and reported during this investigation</h1>
 <ul>
-<li>Yaxim: <a href="https://github.com/pfleidi/yaxim/issues/108">error stanzas are not handled
-  correctly</a> fixed within the
-  same day, maximum respect!</li>
+<li>Yaxim: <a href="https://github.com/pfleidi/yaxim/issues/108">error stanzas are not handled correctly</a> fixed within
+  the same day, maximum respect!</li>
 <li>BitlBee: <a href="http://bugs.bitlbee.org/bitlbee/ticket/1114">XMPP: bitlbee receives but does not display stanzas of type
   "error"</a></li>
 <li>BitlBee: <a href="http://bugs.bitlbee.org/bitlbee/ticket/1111">Opportunistic OTR tries to establish an OTR session with
-  xmlconsole</a> (this one was
-  triggered due to my investigation)</li>
-<li>psi: <a href="https://github.com/psi-im/psi/issues/104">error stanzas not handled correctly (not shown to
-  users)</a></li>
+  xmlconsole</a> (this one was triggered due to my investigation)</li>
+<li>psi: <a href="https://github.com/psi-im/psi/issues/104">error stanzas not handled correctly (not shown to users)</a></li>
 <li>Pidgin: <a href="https://developer.pidgin.im/ticket/15864">error stanzas not handled correctly (not shown to
   users)</a></li>
 <li>Prosody: <a href="http://code.google.com/p/lxmppd/issues/detail?id=383">XEP-0198, also implement the "committing the stanza for
-  offline storage"
-  variant</a></li>
+  offline storage" variant</a></li>
 </ul>
 <h1>texts and people that had an influence on this post</h1>
 <ul>

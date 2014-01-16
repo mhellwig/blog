@@ -6,6 +6,7 @@ Comments  : Off
 Trackback : On
 TagURI    : tag:fnanp.in-ulm.de,2014-01-16:2014/01/16/woes
 
+** Update: made some more inline links to the bug reports **
 # Intro (what is this about)
 
 So for a long time I've had an [XMPP](https://xmpp.org) (historically also
@@ -177,23 +178,23 @@ Of the senders tested (Bitlbee, Psi, Pidgin, Yaxim for mobile to mobile),
 initially *none* showed the error message to the user (see bug reports
 below). 
 
-Yaxim fixed that bug on the same day and now shows a red cross over the
-message concerned as well as an extra message in the chat stream that
-reads "recipient-unavailable(-1)" and has a red background.
+Yaxim fixed that [bug][yaximbug] on the same day and now shows a red cross
+over the message concerned as well as an extra message in the chat stream
+that reads "recipient-unavailable(-1)" and has a red background.
 
-BitlBee acknowledged the bug on IRC and discussed how they might fix it.
-Bitlbee has the problem that up untill now it doesn't generate message IDs
-and it is (AFAIK) not easy to change the way a line that has already been
-written to the IRC client is displayed after the fact. The discussion went
-in the direction of basically putting a timestamp into the message-ID,
-thereby allowing a message of the type "your message from 'time' could not
-be delivered" to be generated upon error. Since at least one developer has
-tested the problem together with me I presume the bug is being worked
-upon.
+BitlBee acknowledged the [bug][bitlbug] on IRC and discussed how they
+might fix it.  Bitlbee has the problem that up untill now it doesn't
+generate message IDs and it is (AFAIK) not easy to change the way a line
+that has already been written to the IRC client is displayed after the
+fact. The discussion went in the direction of basically putting a
+timestamp into the message-ID, thereby allowing a message of the type
+"your message from 'time' could not be delivered" to be generated upon
+error. Since at least one developer has tested the problem together with
+me I presume the bug is being worked upon.
 
-Psi have so far not reacted to the bug report.
+Psi have so far not reacted to the [bug report][psibug].
 
-Pidgin have so far not reacted to the bug report.
+Pidgin have so far not reacted to the [bug report][pidginbug].
 
 ## server side
 
@@ -201,13 +202,13 @@ Prosody implements XEP-0198 correctly, as far as I can see. Nevertheless,
 I would prefer if the second option ("or committing the stanza to offline
 storage") were available as well since that would increase comfort for the
 user (no need to resend messages). After discussion in the chat with
-Prosody developers, I filed a wishlist-bug for this (see below).
+Prosody developers, I filed a [wishlist-bug][prosodybug] for this.
 
 ## receiving side
 
-Yaxim works as advertised (after fixing the bug mentioned below and
-above). The version that incorporates these bug fixes should make its way
-to the Play Store "later this week".
+Yaxim works as advertised (after fixing the [bug][yaximbug] ). The version
+that incorporates these bug fixes should make its way to the Play Store
+"later this week".
 
 Chatsecure works as advertised some of the time. And then it doesn't. And
 then it has trouble reconnecting. And then it takes 5 minutes to
@@ -254,21 +255,17 @@ access to an iPhone. I would be happy to hear about it though.
 
 # bugs found and reported during this investigation
 
-* Yaxim: [error stanzas are not handled
-  correctly](https://github.com/pfleidi/yaxim/issues/108) fixed within the
-  same day, maximum respect!
+* Yaxim: [error stanzas are not handled correctly][yaximbug] fixed within
+  the same day, maximum respect!
 * BitlBee: [XMPP: bitlbee receives but does not display stanzas of type
-  "error"](http://bugs.bitlbee.org/bitlbee/ticket/1114)
+  "error"][bitlbug]
 * BitlBee: [Opportunistic OTR tries to establish an OTR session with
-  xmlconsole](http://bugs.bitlbee.org/bitlbee/ticket/1111) (this one was
-  triggered due to my investigation)
-* psi: [error stanzas not handled correctly (not shown to
-  users)](https://github.com/psi-im/psi/issues/104)
+  xmlconsole][bitlbug2] (this one was triggered due to my investigation)
+* psi: [error stanzas not handled correctly (not shown to users)][psibug]
 * Pidgin: [error stanzas not handled correctly (not shown to
-  users)](https://developer.pidgin.im/ticket/15864)
+  users)][pidginbug]
 * Prosody: [XEP-0198, also implement the "committing the stanza for
-  offline storage"
-  variant](http://code.google.com/p/lxmppd/issues/detail?id=383)
+  offline storage" variant][prosodybug]
 
 
 
@@ -288,3 +285,12 @@ access to an iPhone. I would be happy to hear about it though.
   this issue with me for quite some time now and had great influence on me
   finally deciding to sit down and actually do some real tests besides
   complaining that "things don't work".
+
+
+
+[yaximbug]: https://github.com/pfleidi/yaxim/issues/108
+[bitlbug]: http://bugs.bitlbee.org/bitlbee/ticket/1114
+[bitlbug2]: http://bugs.bitlbee.org/bitlbee/ticket/1111
+[psibug]: https://github.com/psi-im/psi/issues/104
+[pidginbug]: https://developer.pidgin.im/ticket/15864
+[prosodybug]: http://code.google.com/p/lxmppd/issues/detail?id=383
