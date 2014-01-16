@@ -3,7 +3,7 @@
     <head>
         <title>ein Blog</title>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-        <meta name="date" content="2014-01-07T23:44:54">
+        <meta name="date" content="2014-01-16T16:49:29">
         <meta name="robots" content="index, follow">
         <meta http-equiv="content-language" content="en">
         <link rel="stylesheet" type="text/css" href="./css/all-min.css">
@@ -26,6 +26,258 @@
         </div>
 	<div id="main">
         <div class="article">
+            <h2 class="title"><a href="./2014/01/16/01-woes.html">woes.</a></h2>
+            <div class="info">
+                Donnerstag, 16. Januar 2014,
+		<ul class="tags">
+		    <li>Tags:</li>
+                    <li>
+                        <a href="./tags/computers.html">computers</a>,
+                    </li><li>
+                        <a href="./tags/networking.html">networking</a>,
+                    </li><li>
+                        <a href="./tags/android.html">android</a>,
+                    </li><li>
+                        <a href="./tags/xmpp.html">xmpp</a>
+                    </li>
+                </ul>
+            </div>
+            <h1>Intro (what is this about)</h1>
+<p>So for a long time I've had an <a href="https://xmpp.org">XMPP</a> (historically also
+known as <a href="https://en.wikipedia.org/wiki/Jabber">Jabber</a>) account on
+<a href="https://web.jabber.ccc.de">jabber.ccc.de</a>. There are a lot of reasons for
+preferring xmpp over other protocols for instant messaging but I don't
+really feel like repeating stuff that has been said a million times.</p>
+<p>Anyway, long after most other people I got myself a smartphone 3 years
+agon and ever since have struggled with the fact that even though in
+theory, xmpp <em>should</em> be much greater than all the closed alternatives, in
+reality and for mobile use it often isn't, which is why one can evangelise
+all one wants, people will continue using e.g. WhatsApp not just because
+of ignorance but because, sadly, it just works. </p>
+<p>Now what do I mean by "it just works": It is well known that
+security-wise, WhatsApp is a nightmare, but, and this is an important
+point, messages reach their destination most of the time, and if they
+don't, there is some way the user finds out about that.</p>
+<p>The problem with the open version of mobile xmpp (I presume WhatsApp is
+just some kind of modified xmpp internally) is that this isn't the case
+here.</p>
+<p>A scenario. Alice wants to talk to Bob. Alice might be sitting in front of
+her computer or use her mobile phone, it doesn't matter, what matters is
+Bob is using his mobile phone. Now if Alice sends a message and Bob loses
+his network connectivity for a few seconds before receiving this message,
+the message is just lost when using xmpp. This comes as a surprise to a
+lot of people, since after all, xmpp is TCP/IP based, but it is still the
+case, since xmpp doesn't use any confirmation mechanism. This is, afaict,
+because the standard was written at a time when it was thought that the
+main use would be users that are all connected to the server via short,
+high-speed LANs, probably in the same building or so. Also, it takes a
+while for an xmpp server to realise that one of its users has dropped off
+the net, so Alice might see a that Bob has logged off .. but that will
+happen up to 15 minutes <em>after</em> he actually lost connectivity.</p>
+<p>Bob might come back online after a few seconds, but, this is the awful
+part, neither the server nor Alice will ever know that he never received
+the message that was sent while he was away (because neither even saw that
+he was away). And if Bob has his mobile phone in his pocket he will also
+not notice. So there might be messages before and after the lost message
+that he does receive. It can become quite confusing.</p>
+<p>There are extensions to the XMPP protocol which are labelled
+"XEP-something" where "something" is a number. Those extensions (there are
+quite a lot of them) are listed at
+<a href="https://xmpp.org/xmpp-protocols/xmpp-extensions/"></a>. Some of those were
+created explicitly with the goal of solving the problem I describe above.
+The first interesting one here is <a href="https://xmpp.org/extensions/xep-0184.html">XEP-0184: Message Delivery
+Receipts</a> which allows clients
+to tell each other "yep, got that message". But the most important one is
+<a href="https://xmpp.org/extensions/xep-0198.html">XEP-0198: Stream Management</a>,
+which allows a client to tell the server "oh hey, I was gone for a few
+seconds/minutes there, got any messages for me?"</p>
+<h1>Overview of the current situation</h1>
+<p>So, case closed, right? Everybody implements XEP-0198 in their software
+and things are peachy!</p>
+<p>Well no. Because they don't. Implement it, that is.</p>
+<p>For this to work, the client (the app on the mobile phone) as well as the
+server have to support XEP-0198.</p>
+<h2>daemon software</h2>
+<p>In the server world, the situation is:</p>
+<ul>
+<li><a href="http://www.process-one.net/en/ejabberd/">ejabberd</a>, written in
+  <a href="http://www.erlang.org">Erlang</a> claims to be the "worlds most popular
+  XMPP application server". Offers its own version of "mobile support",
+  but only in the non-free "Enterprise Edition". The Open Source
+  "Community Edition" has neither that proprietory implementation nor
+  XEP-0198. A full breakdown of the XEPs that are supported is
+  <a href="http://www.process-one.net/en/ejabberd/protocols/">here</a>. There is a
+  longstanding bug in the ejabberd <a href="https://support.process-one.net/browse/EJAB-532">issue
+  tracker</a> that quite
+  clearly shows that the developers are not interested in implementing
+  this. <br>
+  Note that <a href="https://web.jabber.ccc.de">jabber.ccc.de</a> uses ejabberd.</li>
+<li>There is a <a href="https://github.com/xek/ejabberd">fork</a> of ejabberd
+  (presumably of the community edition) on <a href="https://github.com">github</a>,
+  with the explicit purpose of adding XEP-0198 to ejabberd. The last
+  development on this fork seems to have happened three years ago.</li>
+<li><a href="https://prosody.im">prosody</a>, written in <a href="http://www.lua.org">Lua</a>, has
+  support for XEP-0198 in a
+  <a href="http://code.google.com/p/prosody-modules/wiki/mod_smacks">plugin</a> which
+  implements part of the spec (namely, what is still missing is the
+  possibility for the server to commit lost messages to offline storage,
+  currently it only implements the "send an error if receiver is offline
+  for a time longer than timeout").</li>
+</ul>
+<p>There are of course other jabber daemons but those are the ones I looked
+at.</p>
+<h2>client software</h2>
+<h3>mobile clients for Android</h3>
+<p>I mainly looked at clients for Android since an Android phone is what I
+have access to.</p>
+<p>Popular clients include</p>
+<ul>
+<li><a href="http://www.xabber.org/">xabber</a>. Does not support XEP-0198. There is a
+  bug in the
+  <a href="https://github.com/redsolution/xabber-android/issues/67">xabber-bugtracker</a>
+  that doesn't have any comments from developers and isn't assigned to
+  anyone.</li>
+<li><a href="http://beem-project.com/">beem</a>. Does not support XEP-0198. There is a
+  bug in the <a href="http://beem-project.com/issues/400">beem bugtracker</a> which
+  was opened two years ago and has no activity beyond being changed from
+  "bug" to "feature request" 9 months ago.</li>
+<li><a href="https://guardianproject.info/apps/chatsecure/">chatsecure</a>, formerly
+  known as Gibberbot, is probably the most feature-complete xmpp-app for
+  Android, at least according to its specs. Supports
+  <a href="https://otr.cypherpunks.ca/">OTR</a> as well as XEP-0198.</li>
+<li><a href="https://yaxim.org">yaxim</a> supports XEP-0198 as well as XEP-0184.</li>
+</ul>
+<h3>linux clients</h3>
+<p>There isn't really any necessity for a client that doesn't use mobile
+networking or is stationary to implement XEP-0198, but that doesn't mean
+that we can ignore those clients. According to XEP-0198, if a server
+detects that a client is gone for good, it may react "by either returning
+an error to the sender or committing the stanza to offline storage."</p>
+<p>That "error to the sender" is a stanza with the same message-ID as the
+original message, no content and is of type="error". One would presume
+that a client receiving such an error message would endeavour to inform
+its user but alas, this is not the case. I looked at the following
+clients:</p>
+<ul>
+<li><a href="http://bitlbee.org">BitlBee</a> is a gateway that translates various chat
+  protocols (including XMPP) to IRC, thereby allowing the user to have
+  them all in his/her favourite IRC client.</li>
+<li><a href="http://psi-im.org/">psi</a> pure XMPP client, graphical.</li>
+<li><a href="http://pidgin.im/">pidgin</a> Multi-IM client, graphical.</li>
+</ul>
+<h1>my findings</h1>
+<p>I used my own ARCH Linux server and installed prosody and the XEP-0198
+plugin on it. It has to be noted that the
+<a href="http://code.google.com/p/prosody-modules/wiki/mod_smacks">mod_smacks</a>-plugin
+currently in <a href="http://aur.archlinux.org">AUR</a> is not the current one and
+therefore doesn't work. Installing it by hand is easy, since it's just one
+file.  Then I used one account for the desktop clients and one for the
+mobile clients to test scenarios of loss of connectivity for different
+lengths of time, as well as mobile to mobile chats.</p>
+<p>I simulated loss of connectivity on the phone by first deactivating mobile
+networking (to take away the fallback option) and then turning off the
+wifi. What should happen is that when one re-enables wifi after a short
+time, the client should tell the server that he's back from an outage and
+should receive queued messages. A remote chat party shouldn't see the
+disconnect/reconnect. When the outage goes on for longer (in my tests at
+least 10 minutes, up to 15 minutes), the server realises something is
+amiss and starts his countdown. After the countdown is over (5 minutes
+default), the sender receives an error message from the server.</p>
+<h2>sending side</h2>
+<p>Of the senders tested (Bitlbee, Psi, Pidgin, Yaxim for mobile to mobile),
+initially <em>none</em> showed the error message to the user (see bug reports
+below). </p>
+<p>Yaxim fixed that bug on the same day and now shows a red cross over the
+message concerned as well as an extra message in the chat stream that
+reads "recipient-unavailable(-1)" and has a red background.</p>
+<p>BitlBee acknowledged the bug on IRC and discussed how they might fix it.
+Bitlbee has the problem that up untill now it doesn't generate message IDs
+and it is (AFAIK) not easy to change the way a line that has already been
+written to the IRC client is displayed after the fact. The discussion went
+in the direction of basically putting a timestamp into the message-ID,
+thereby allowing a message of the type "your message from 'time' could not
+be delivered" to be generated upon error. Since at least one developer has
+tested the problem together with me I presume the bug is being worked
+upon.</p>
+<p>Psi have so far not reacted to the bug report.</p>
+<p>Pidgin have so far not reacted to the bug report.</p>
+<h2>server side</h2>
+<p>Prosody implements XEP-0198 correctly, as far as I can see. Nevertheless,
+I would prefer if the second option ("or committing the stanza to offline
+storage") were available as well since that would increase comfort for the
+user (no need to resend messages). After discussion in the chat with
+Prosody developers, I filed a wishlist-bug for this (see below).</p>
+<h2>receiving side</h2>
+<p>Yaxim works as advertised (after fixing the bug mentioned below and
+above). The version that incorporates these bug fixes should make its way
+to the Play Store "later this week".</p>
+<p>Chatsecure works as advertised some of the time. And then it doesn't. And
+then it has trouble reconnecting. And then it takes 5 minutes to
+reconnect. And then it sometimes doesn't see contacts as online even
+though they clearly are and nothing can make it see the error of its ways.
+So even though on paper it should be the best client out there, it made my
+blood boil with anger ...</p>
+<p>Xabber just plain doesn't support XEP-0198 so no point complaining about
+it losing messages. At least it quickly reconnects after connection loss.</p>
+<p>Beem is extremely bad in that it not only fails to support XEP-0198, a
+loss of connectivity also causes it to display an error message and quit,
+not reconneting automatically. So unless the user intervenes <em>every</em>
+<em>single</em> <em>time</em> that connectivity is lost, it won't work at all.</p>
+<h1>Conclusion</h1>
+<p>For now, Yaxim seems to be the best client out there (but be very aware
+that it doesn't encrypt your messages end-to-end, so unless you trust all
+the servers in between yourself and the recipient to correctly implement
+encryption and not store your messages, treat it as unsafe for sensitive
+content!). If it supported OTR as well, it would be perfect. The yaxim
+bugtracker has a <a href="https://github.com/pfleidi/yaxim/issues/82">bug</a> about
+OTR and <a href="https://github.com/pfleidi/yaxim/issues/83">another one</a> about
+AGP.</p>
+<p>Prosody as server works as advertised. If you don't want to install one
+yourself, Yaxim offers an open Prosody server that supports XEP-0198 at
+<a href="http://yaxim.org/yax.im/">yax.im</a>.</p>
+<p>Chatsecure <em>could</em> be great if they manage to fix all the annoyances
+detailed above.</p>
+<p>Xabber is no contender unless it implements XEP-0198. Same for Beem.</p>
+<p>I did not investigate the situation for iPhones since I don't own or have
+access to an iPhone. I would be happy to hear about it though.</p>
+<h1>bugs found and reported during this investigation</h1>
+<ul>
+<li>Yaxim: <a href="https://github.com/pfleidi/yaxim/issues/108">error stanzas are not handled
+  correctly</a> fixed within the
+  same day, maximum respect!</li>
+<li>BitlBee: <a href="http://bugs.bitlbee.org/bitlbee/ticket/1114">XMPP: bitlbee receives but does not display stanzas of type
+  "error"</a></li>
+<li>BitlBee: <a href="http://bugs.bitlbee.org/bitlbee/ticket/1111">Opportunistic OTR tries to establish an OTR session with
+  xmlconsole</a> (this one was
+  triggered due to my investigation)</li>
+<li>psi: <a href="https://github.com/psi-im/psi/issues/104">error stanzas not handled correctly (not shown to
+  users)</a></li>
+<li>Pidgin: <a href="https://developer.pidgin.im/ticket/15864">error stanzas not handled correctly (not shown to
+  users)</a></li>
+<li>Prosody: <a href="http://code.google.com/p/lxmppd/issues/detail?id=383">XEP-0198, also implement the "committing the stanza for
+  offline storage"
+  variant</a></li>
+</ul>
+<h1>texts and people that had an influence on this post</h1>
+<ul>
+<li><a href="http://op-co.de/blog/posts/XEP-0198/"></a> has a great explanation on why
+  XEP-0198 is needed.</li>
+<li>people in the #yaxim channel on <a href="http://irc.freenode.net">freenode</a>
+  were very responsive and helpful.</li>
+<li>people in the #bitlbee channel on <a href="http://oftc.net">oftc</a> were very
+  responsive and helpful as well as delightfully snarky.</li>
+<li>people in the prosody community chat (see
+  <a href="https://prosody.im/discuss#chatroom">here</a> were very responsive and
+  helpful.</li>
+<li>Peter Schwindt, on Twitter as <a href="https://twitter.com/vautee">@vautee</a>,
+  admin of <a href="https://web.jabber.ccc.de">jabber.ccc.de</a>, has been discussing
+  this issue with me for quite some time now and had great influence on me
+  finally deciding to sit down and actually do some real tests besides
+  complaining that "things don't work".</li>
+</ul>
+	  <hr>
+	  <hr>
+        </div><div class="article">
             <h2 class="title"><a href="./2014/01/07/01-arp3.html">arp3.</a></h2>
             <div class="info">
                 Dienstag, 07. Januar 2014,
