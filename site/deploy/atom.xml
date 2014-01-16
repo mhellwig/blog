@@ -4,12 +4,12 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2014-01-16T17:11:29Z</updated>
+    <updated>2014-01-16T17:17:26Z</updated>
     <entry>
         <title>woes.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/16/01-woes.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2014-01-16:2014/01/16/woes</id>
-        <updated>2014-01-16T17:11:23Z</updated>
+        <updated>2014-01-16T17:17:22Z</updated>
         <published>2014-01-16T16:49:29Z</published>
         <category term="computers"/><category term="networking"/><category term="android"/><category term="xmpp"/>
         <author>
@@ -22,7 +22,7 @@ known as <a href="https://en.wikipedia.org/wiki/Jabber">Jabber</a>) account on
 preferring xmpp over other protocols for instant messaging but I don't
 really feel like repeating stuff that has been said a million times.</p>
 <p>Anyway, long after most other people I got myself a smartphone 3 years
-agon and ever since have struggled with the fact that even though in
+ago and ever since have struggled with the fact that even though in
 theory, xmpp <em>should</em> be much greater than all the closed alternatives, in
 reality and for mobile use it often isn't, which is why one can evangelise
 all one wants, people will continue using e.g. WhatsApp not just because
