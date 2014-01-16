@@ -274,7 +274,7 @@ access to an iPhone. I would be happy to hear about it though.
 
 # texts and people that had an influence on this post
 
-* [](http://op-co.de/blog/posts/XEP-0198/) has a great explanation on why
+* [Here](http://op-co.de/blog/posts/XEP-0198/) is a great explanation on why
   XEP-0198 is needed.
 * people in the \#yaxim channel on [freenode](http://irc.freenode.net)
   were very responsive and helpful.
