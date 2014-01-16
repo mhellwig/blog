@@ -4,12 +4,12 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2014-01-16T17:17:26Z</updated>
+    <updated>2014-01-16T17:19:31Z</updated>
     <entry>
         <title>woes.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/16/01-woes.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2014-01-16:2014/01/16/woes</id>
-        <updated>2014-01-16T17:17:22Z</updated>
+        <updated>2014-01-16T17:19:27Z</updated>
         <published>2014-01-16T16:49:29Z</published>
         <category term="computers"/><category term="networking"/><category term="android"/><category term="xmpp"/>
         <author>
@@ -18,7 +18,7 @@
         <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><h1>Intro (what is this about)</h1>
 <p>So for a long time I've had an <a href="https://xmpp.org">XMPP</a> (historically also
 known as <a href="https://en.wikipedia.org/wiki/Jabber">Jabber</a>) account on
-<a href="https://web.jabber.ccc.de">jabber.ccc.de</a>. There are a lot of reasons for
+<a href="http://web.jabber.ccc.de">jabber.ccc.de</a>. There are a lot of reasons for
 preferring xmpp over other protocols for instant messaging but I don't
 really feel like repeating stuff that has been said a million times.</p>
 <p>Anyway, long after most other people I got myself a smartphone 3 years
@@ -84,7 +84,7 @@ server have to support XEP-0198.</p>
   tracker</a> that quite
   clearly shows that the developers are not interested in implementing
   this. <br/>
-  Note that <a href="https://web.jabber.ccc.de">jabber.ccc.de</a> uses ejabberd.</li>
+  Note that <a href="http://web.jabber.ccc.de">jabber.ccc.de</a> uses ejabberd.</li>
 <li>There is a <a href="https://github.com/xek/ejabberd">fork</a> of ejabberd
   (presumably of the community edition) on <a href="https://github.com">github</a>,
   with the explicit purpose of adding XEP-0198 to ejabberd. The last
@@ -243,7 +243,7 @@ access to an iPhone. I would be happy to hear about it though.</p>
   <a href="https://prosody.im/discuss#chatroom">here</a> were very responsive and
   helpful.</li>
 <li>Peter Schwindt, on Twitter as <a href="https://twitter.com/vautee">@vautee</a>,
-  admin of <a href="https://web.jabber.ccc.de">jabber.ccc.de</a>, has been discussing
+  admin of <a href="http://web.jabber.ccc.de">jabber.ccc.de</a>, has been discussing
   this issue with me for quite some time now and had great influence on me
   finally deciding to sit down and actually do some real tests besides
   complaining that "things don't work".</li>

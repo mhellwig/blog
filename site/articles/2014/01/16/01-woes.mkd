@@ -10,7 +10,7 @@ TagURI    : tag:fnanp.in-ulm.de,2014-01-16:2014/01/16/woes
 
 So for a long time I've had an [XMPP](https://xmpp.org) (historically also
 known as [Jabber](https://en.wikipedia.org/wiki/Jabber)) account on
-[jabber.ccc.de](https://web.jabber.ccc.de). There are a lot of reasons for
+[jabber.ccc.de](http://web.jabber.ccc.de). There are a lot of reasons for
 preferring xmpp over other protocols for instant messaging but I don't
 really feel like repeating stuff that has been said a million times.
 
@@ -88,7 +88,7 @@ In the server world, the situation is:
   tracker](https://support.process-one.net/browse/EJAB-532) that quite
   clearly shows that the developers are not interested in implementing
   this.   
-  Note that [jabber.ccc.de](https://web.jabber.ccc.de) uses ejabberd.
+  Note that [jabber.ccc.de](http://web.jabber.ccc.de) uses ejabberd.
 * There is a [fork](https://github.com/xek/ejabberd) of ejabberd
   (presumably of the community edition) on [github](https://github.com),
   with the explicit purpose of adding XEP-0198 to ejabberd. The last
@@ -284,7 +284,7 @@ access to an iPhone. I would be happy to hear about it though.
   [here](https://prosody.im/discuss#chatroom) were very responsive and
   helpful.
 * Peter Schwindt, on Twitter as [@vautee](https://twitter.com/vautee),
-  admin of [jabber.ccc.de](https://web.jabber.ccc.de), has been discussing
+  admin of [jabber.ccc.de](http://web.jabber.ccc.de), has been discussing
   this issue with me for quite some time now and had great influence on me
   finally deciding to sit down and actually do some real tests besides
   complaining that "things don't work".
