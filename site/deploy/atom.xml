@@ -4,12 +4,12 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2014-01-16T16:49:37Z</updated>
+    <updated>2014-01-16T17:06:10Z</updated>
     <entry>
         <title>woes.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/16/01-woes.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2014-01-16:2014/01/16/woes</id>
-        <updated>2014-01-16T16:49:37Z</updated>
+        <updated>2014-01-16T17:06:04Z</updated>
         <published>2014-01-16T16:49:29Z</published>
         <category term="computers"/><category term="networking"/><category term="android"/><category term="xmpp"/>
         <author>
@@ -194,7 +194,7 @@ blood boil with anger ...</p>
 it losing messages. At least it quickly reconnects after connection loss.</p>
 <p>Beem is extremely bad in that it not only fails to support XEP-0198, a
 loss of connectivity also causes it to display an error message and quit,
-not reconneting automatically. So unless the user intervenes <em>every</em>
+not reconnecting automatically. So unless the user intervenes <em>every</em>
 <em>single</em> <em>time</em> that connectivity is lost, it won't work at all.</p>
 <h1>Conclusion</h1>
 <p>For now, Yaxim seems to be the best client out there (but be very aware

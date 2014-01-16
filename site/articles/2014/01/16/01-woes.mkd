@@ -221,7 +221,7 @@ it losing messages. At least it quickly reconnects after connection loss.
 
 Beem is extremely bad in that it not only fails to support XEP-0198, a
 loss of connectivity also causes it to display an error message and quit,
-not reconneting automatically. So unless the user intervenes _every_
+not reconnecting automatically. So unless the user intervenes _every_
 _single_ _time_ that connectivity is lost, it won't work at all.
 
 
