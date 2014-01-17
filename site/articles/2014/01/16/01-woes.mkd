@@ -7,7 +7,7 @@ Trackback : On
 TagURI    : tag:fnanp.in-ulm.de,2014-01-16:2014/01/16/woes
 
 *Update 2: this post has gotten a few reactions. There will be a
-  followup-post soon-ish*
+  followup-post soon-ish*  
 *Update: made some more inline links to the bug reports*
 
 # Intro (what is this about)

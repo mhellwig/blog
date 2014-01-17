@@ -4,19 +4,19 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2014-01-17T09:36:46Z</updated>
+    <updated>2014-01-17T09:37:25Z</updated>
     <entry>
         <title>woes.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/16/01-woes.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2014-01-16:2014/01/16/woes</id>
-        <updated>2014-01-17T09:36:39Z</updated>
+        <updated>2014-01-17T09:37:22Z</updated>
         <published>2014-01-16T16:49:29Z</published>
         <category term="computers"/><category term="networking"/><category term="android"/><category term="xmpp"/>
         <author>
             <name>michael</name>
         </author>
         <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><em>Update 2: this post has gotten a few reactions. There will be a
-  followup-post soon-ish</em>
+  followup-post soon-ish</em><br/>
 <em>Update: made some more inline links to the bug reports</em></p>
 <h1>Intro (what is this about)</h1>
 <p>So for a long time I've had an <a href="https://xmpp.org">XMPP</a> (historically also
