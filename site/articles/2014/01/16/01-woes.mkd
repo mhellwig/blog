@@ -6,7 +6,10 @@ Comments  : Off
 Trackback : On
 TagURI    : tag:fnanp.in-ulm.de,2014-01-16:2014/01/16/woes
 
-** Update: made some more inline links to the bug reports **
+*Update 2: this post has gotten a few reactions. There will be a
+  followup-post soon-ish*
+*Update: made some more inline links to the bug reports*
+
 # Intro (what is this about)
 
 So for a long time I've had an [XMPP](https://xmpp.org) (historically also
@@ -278,7 +281,7 @@ access to an iPhone. I would be happy to hear about it though.
 * people in the \#bitlbee channel on [oftc](http://oftc.net) were very
   responsive and helpful as well as delightfully snarky.
 * people in the prosody community chat (see
-  [here](https://prosody.im/discuss#chatroom) were very responsive and
+  [here](https://prosody.im/discuss#chatroom)) were very responsive and
   helpful.
 * Peter Schwindt, on Twitter as [@vautee](https://twitter.com/vautee),
   admin of [jabber.ccc.de](http://web.jabber.ccc.de), has been discussing
