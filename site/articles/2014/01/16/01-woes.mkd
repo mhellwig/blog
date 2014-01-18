@@ -6,6 +6,7 @@ Comments  : Off
 Trackback : On
 TagURI    : tag:fnanp.in-ulm.de,2014-01-16:2014/01/16/woes
 
+*Update 3: I've written a new post linking to a few reactions [here][]*  
 *Update 2: this post has gotten a few reactions. There will be a
   followup-post soon-ish*  
 *Update: made some more inline links to the bug reports*
@@ -297,3 +298,4 @@ access to an iPhone. I would be happy to hear about it though.
 [psibug]: https://github.com/psi-im/psi/issues/104
 [pidginbug]: https://developer.pidgin.im/ticket/15864
 [prosodybug]: http://code.google.com/p/lxmppd/issues/detail?id=383
+[here]: http://fnanp.in-ulm.de/blog/2014/01/18/01-woes2.html
