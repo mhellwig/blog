@@ -22,6 +22,7 @@ Things that happened since writing the post:
   certainly give the new version a trial run and share my thoughts on it
   in a few days.
 * [Also][] [there][] [were][] some reactions and discussions on twitter.
+  (including [reference][] [to][] [yet][] another ejabberd annoyance)
 
 So that's that for now. More as the story develops.
 
@@ -35,3 +36,6 @@ So that's that for now. More as the story develops.
 [Also]: https://twitter.com/jabbercccde/status/423852561251446786
 [there]: https://twitter.com/4b73cb/status/423855231198576640
 [were]: https://twitter.com/Natanji/status/424107842980020224
+[reference]: https://twitter.com/g0rdin/status/424144085742407680
+[to]: https://twitter.com/g0rdin/status/424144136887734272
+[yet]: https://twitter.com/g0rdin/status/424229109657391105

@@ -4,12 +4,12 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2014-01-18T10:56:37Z</updated>
+    <updated>2014-01-18T11:02:07Z</updated>
     <entry>
         <title>woes2.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/18/01-woes2.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2014-01-18:2014/01/18/woes2</id>
-        <updated>2014-01-18T10:53:45Z</updated>
+        <updated>2014-01-18T11:02:01Z</updated>
         <published>2014-01-18T10:53:42Z</published>
         <category term="computers"/><category term="networking"/><category term="android"/><category term="xmpp"/>
         <author>
@@ -29,7 +29,8 @@
   in an update that was released right after I published my post. I'll
   certainly give the new version a trial run and share my thoughts on it
   in a few days.</li>
-<li><a href="https://twitter.com/jabbercccde/status/423852561251446786">Also</a> <a href="https://twitter.com/4b73cb/status/423855231198576640">there</a> <a href="https://twitter.com/Natanji/status/424107842980020224">were</a> some reactions and discussions on twitter.</li>
+<li><a href="https://twitter.com/jabbercccde/status/423852561251446786">Also</a> <a href="https://twitter.com/4b73cb/status/423855231198576640">there</a> <a href="https://twitter.com/Natanji/status/424107842980020224">were</a> some reactions and discussions on twitter.
+  (including <a href="https://twitter.com/g0rdin/status/424144085742407680">reference</a> <a href="https://twitter.com/g0rdin/status/424144136887734272">to</a> <a href="https://twitter.com/g0rdin/status/424229109657391105">yet</a> another ejabberd annoyance)</li>
 </ul>
 <p>So that's that for now. More as the story develops.</p></div></content>
     </entry><entry>
