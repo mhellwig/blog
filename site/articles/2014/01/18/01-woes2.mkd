@@ -26,6 +26,8 @@ Things that happened since writing the post:
 
 So that's that for now. More as the story develops.
 
+*Update: I've now also looked at [gajim][] as the sending client*  
+
 
 
 
@@ -39,3 +41,4 @@ So that's that for now. More as the story develops.
 [reference]: https://twitter.com/g0rdin/status/424144085742407680
 [to]: https://twitter.com/g0rdin/status/424144136887734272
 [yet]: https://twitter.com/g0rdin/status/424229109657391105
+[gajim]: http://fnanp.in-ulm.de/blog/2014/01/18/02-woes3.html

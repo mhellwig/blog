@@ -1,0 +1,18 @@
+Title     : woes3.
+Author    : michael
+Created   : 2014-01-18T17:38:23
+Tags      : computers, networking, android, xmpp
+Comments  : Off
+Trackback : On
+TagURI    : tag:fnanp.in-ulm.de,2014-01-18:2014/01/18/woes3
+
+A continuation of [this][] and [that][].
+
+I've now also tried out [gajim][] as the sending client. In contrast to
+psi and pidgin, this one works nicely in that it informs users of problems
+with delivery and also of the final error message from the server. So well
+done gajim!
+
+[this]: http://fnanp.in-ulm.de/blog/2014/01/16/01-woes.html
+[that]: http://fnanp.in-ulm.de/blog/2014/01/18/01-woes2.html
+[gajim]: http://gajim.org
