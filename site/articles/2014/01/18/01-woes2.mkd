@@ -1,0 +1,37 @@
+Title     : woes2.
+Author    : michael
+Created   : 2014-01-18T10:53:42
+Tags      : computers, networking, android, xmpp
+Comments  : Off
+Trackback : On
+TagURI    : tag:fnanp.in-ulm.de,2014-01-18:2014/01/18/woes2
+
+This is a followup to my previous post [here][woes1].
+
+Things that happened since writing the post:
+
+* Pidgin have now acknowledged their "not showing error stanzas" bug and
+  basically replied with [it's complicated][pidginbug]. The main problem
+  seems to be that, like BitlBee as well, Pidgin doesn't keep a list of
+  stanzas that were already sent, so the information that a certain
+  message ID had an error doesn't really carry meaningful information. We
+  can hope.
+* Chatsecure have [expressed][] [dismay][] about the timing of my post
+  since they think they have fixed most of the issues I complained about
+  in an update that was released right after I published my post. I'll
+  certainly give the new version a trial run and share my thoughts on it
+  in a few days.
+* [Also][] [there][] [were][] some reactions and discussions on twitter.
+
+So that's that for now. More as the story develops.
+
+
+
+
+[woes1]: http://fnanp.in-ulm.de/blog/2014/01/16/01-woes.html
+[pidginbug]: https://developer.pidgin.im/ticket/15864#comment:1
+[expressed]: https://lists.mayfirst.org/pipermail/guardian-dev/2014-January/003065.html
+[dismay]: https://twitter.com/n8fr8/status/424198994638942208
+[Also]: https://twitter.com/jabbercccde/status/423852561251446786
+[there]: https://twitter.com/4b73cb/status/423855231198576640
+[were]: https://twitter.com/Natanji/status/424107842980020224
