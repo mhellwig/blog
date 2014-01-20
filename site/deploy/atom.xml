@@ -4,8 +4,24 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2014-01-18T17:41:51Z</updated>
+    <updated>2014-01-20T10:31:13Z</updated>
     <entry>
+        <title>more.</title>
+        <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/20/01-more.html" type="text/html"/>
+        <id>tag:fnanp.in-ulm.de,2014-01-20:2014/01/20/more</id>
+        <updated>2014-01-20T10:31:13Z</updated>
+        <published>2014-01-20T10:31:04Z</published>
+        <category term="administrativa"/><category term="xmpp"/>
+        <author>
+            <name>michael</name>
+        </author>
+        <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>A quick note: I am currently slightly leisure-time-challenged so it'll
+take at least untill Tuesday evening for the next post in the xmpp-series
+to show up. Working on a test of the new version of Chatsecure, more
+sending client software (mcabber) as well as a look at the other server
+software out there. Plus, a different kind of network problem than the one
+analyzed so far.</p></div></content>
+    </entry><entry>
         <title>woes3.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/18/02-woes3.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2014-01-18:2014/01/18/woes3</id>

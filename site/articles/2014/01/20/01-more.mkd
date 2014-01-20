@@ -1,0 +1,14 @@
+Title     : more.
+Author    : michael
+Created   : 2014-01-20T10:31:04
+Tags      : administrativa, xmpp
+Comments  : Off
+Trackback : On
+TagURI    : tag:fnanp.in-ulm.de,2014-01-20:2014/01/20/more
+
+A quick note: I am currently slightly leisure-time-challenged so it'll
+take at least untill Tuesday evening for the next post in the xmpp-series
+to show up. Working on a test of the new version of Chatsecure, more
+sending client software (mcabber) as well as a look at the other server
+software out there. Plus, a different kind of network problem than the one
+analyzed so far.
