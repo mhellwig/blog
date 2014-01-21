@@ -24,7 +24,7 @@ based, not for Android).
 
 [libpurple][] is the basis of [pidgin][], which I've already talked about
 in the [first entry][] of this series. There are some other clients that
-use libpurple for communication, among them (also by the pidgin
+use libpurple for communication, among them finch (also by the pidgin
 developers) or [centerim][].
 
 Since libpurple neither shows the error messages described in the [first
