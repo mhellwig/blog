@@ -4,12 +4,12 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2014-01-21T22:57:22Z</updated>
+    <updated>2014-01-21T23:05:52Z</updated>
     <entry>
         <title>woes4.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/21/01-woes4.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2014-01-21:2014/01/21/woes4</id>
-        <updated>2014-01-21T22:57:19Z</updated>
+        <updated>2014-01-21T23:05:47Z</updated>
         <published>2014-01-21T22:39:33Z</published>
         <category term="computers"/><category term="networking"/><category term="android"/><category term="xmpp"/>
         <author>
@@ -58,7 +58,7 @@ we got:</p>
 <h2>openfire</h2>
 <p><a href="http://www.igniterealtime.org/projects/openfire/">openfire</a> is Java based and Open Source (Apache License). It does not
 support <a href="https://xmpp.org/extensions/xep-0198.html">XEP-0198</a>. There is a feature request about it on the <a href="http://issues.igniterealtime.org/browse/OF-446">openfire
-bugtracker</a> about this which received attention from users but will,
+bugtracker</a> which received attention from users but will,
 apparently, not be implemented soon due to manpower issues.</p>
 <h2>jabberd</h2>
 <p><a href="https://jabberd.org/">jabberd</a> does, to the best of my knowledge, not implement <a href="https://xmpp.org/extensions/xep-0198.html">XEP-0198</a>.

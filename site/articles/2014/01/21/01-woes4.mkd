@@ -64,7 +64,7 @@ we got:
 
 [openfire][] is Java based and Open Source (Apache License). It does not
 support [XEP-0198][]. There is a feature request about it on the [openfire
-bugtracker][] about this which received attention from users but will,
+bugtracker][] which received attention from users but will,
 apparently, not be implemented soon due to manpower issues.
 
 ## jabberd
