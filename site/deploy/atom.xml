@@ -4,12 +4,12 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2014-01-21T22:55:12Z</updated>
+    <updated>2014-01-21T22:57:22Z</updated>
     <entry>
         <title>woes4.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/21/01-woes4.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2014-01-21:2014/01/21/woes4</id>
-        <updated>2014-01-21T22:55:09Z</updated>
+        <updated>2014-01-21T22:57:19Z</updated>
         <published>2014-01-21T22:39:33Z</published>
         <category term="computers"/><category term="networking"/><category term="android"/><category term="xmpp"/>
         <author>
@@ -80,7 +80,10 @@ Since it works in prosody, I kinda assume it also works in metronome.</p>
 <p><a href="http://www.isode.com/products/m-link.html">isode m-link</a> is, apparently, commercial software and I don't know and
 can't test (cf "commercial") whether it supports <a href="https://xmpp.org/extensions/xep-0198.html">XEP-0198</a> and if yes
 how well it does. Does anyone know? Please tell me, I'll amend this
-section.</p></div></content>
+section.</p>
+<p><em>UPDATE</em><br/>
+an eagle-eyed reader (dx on #bitlbee) pointed me to a <a href="http://www.isode.com/products/m-link-standards.html">feature
+list</a> on its webpage, which does include XEP-0198.</p></div></content>
     </entry><entry>
         <title>more.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/20/01-more.html" type="text/html"/>

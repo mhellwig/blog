@@ -96,6 +96,10 @@ can't test (cf "commercial") whether it supports [XEP-0198][] and if yes
 how well it does. Does anyone know? Please tell me, I'll amend this
 section.
 
+*UPDATE*  
+an eagle-eyed reader (dx on #bitlbee) pointed me to a [feature
+list][isodefeatures] on its webpage, which does include XEP-0198.
+
 
 [xmpp]: http://fnanp.in-ulm.de/blog/tags/xmpp.html
 [libpurple]: https://developer.pidgin.im/wiki/WhatIsLibpurple
@@ -118,3 +122,4 @@ section.
 [prosody]: http://prosody.im/
 [jabberd2proto]: https://github.com/jabberd2/jabberd2/blob/master/README.protocol
 [jabberd2bug]: https://www.mail-archive.com/jabberd2@lists.xiaoka.com/msg01653.html
+[isodefeatures]: http://www.isode.com/products/m-link-standards.html
