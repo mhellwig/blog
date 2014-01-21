@@ -1,0 +1,119 @@
+Title     : woes4.
+Author    : michael
+Created   : 2014-01-21T22:39:33
+Tags      : computers, networking, android, xmpp
+Comments  : Off
+Trackback : On
+TagURI    : tag:fnanp.in-ulm.de,2014-01-21:2014/01/21/woes4
+
+So. Another day, another entry.
+
+This is a further point in my [ongoing quest][xmpp] to get to the bottom
+of XMPP on mobile devices and why it sucks and how to make it better. This
+saga started [here][first entry].
+
+# sending clients
+
+I've looked at some more client software for the sending side (i.e. Linux
+based, not for Android).
+
+* everything based on [libpurple][]
+* [mcabber][]
+
+## libpurple
+
+[libpurple][] is the basis of [pidgin][], which I've already talked about
+in the [first entry][] of this series. There are some other clients that
+use libpurple for communication, among them (also by the pidgin
+developers) or [centerim][].
+
+Since libpurple neither shows the error messages described in the [first
+entry][] nor supports [XEP-0184][] (message delivery receipts), none of
+the clients based on libpurple do either.
+
+There _is_ an unofficial plugin for [XEP-0184][] on the [pidgin
+bugtracker][], with no word on whether it'll ever be officially included
+into [pidgin][].
+
+## mcabber
+
+[mcabber][] is a console client and is, as far as I can tell, the bestest
+greatest coolest most awesome. It shows the error messages. It supports
+[XEP-0184][]. It supports [OTR][]. And, in contrast to some other clients,
+not just as a list on a webpage but this shit actually works. Wow. Mcabber
+is great, w00h00 .. and so forth. If you need a console client, use this
+one.
+
+
+
+
+# more servers
+
+This time, I'm looking at "the other" xmpp daemons out there. So what have
+we got:
+
+* [openfire][]
+* [jabberd][]
+* [jabberd2][]
+* [metronome][] (based on prosody)
+* [isode m-link][]
+
+(also I'm sure I forgot some).
+
+## openfire
+
+[openfire][] is Java based and Open Source (Apache License). It does not
+support [XEP-0198][]. There is a feature request about it on the [openfire
+bugtracker][] about this which received attention from users but will,
+apparently, not be implemented soon due to manpower issues.
+
+## jabberd
+
+[jabberd][] does, to the best of my knowledge, not implement [XEP-0198][].
+I haven't found a clean list of "here are the standards we support", but
+there is a [list of files][jabberdfiles] with explanations that contains
+*some* XEPs but no this one. The [bugtracker][jabberdbugs] seems to be
+unreachable. 
+
+## jabberd2
+
+[jabberd2][] is a separate project from [jabberd][]. They do list
+[XEP-0198][] on their "supported protocols" [page][jabberd2proto] *but*
+they mean version 0.3 of the XEP ([see here][jabberd2bug]) which is from
+2007 and *quite* out of date and from what I know not compatible with
+modern implementations and didn't implement most of the features that this
+standard does nowadays.
+
+## metronome
+
+[metronome][] is a fork of [prosody][] and claims to support [XEP-0198][].
+Since it works in prosody, I kinda assume it also works in metronome.
+
+## isode m-link
+
+[isode m-link][] is, apparently, commercial software and I don't know and
+can't test (cf "commercial") whether it supports [XEP-0198][] and if yes
+how well it does. Does anyone know? Please tell me, I'll amend this
+section.
+
+
+[xmpp]: http://fnanp.in-ulm.de/blog/tags/xmpp.html
+[libpurple]: https://developer.pidgin.im/wiki/WhatIsLibpurple
+[mcabber]: http://mcabber.com
+[pidgin]: https://developer.pidgin.im
+[centerim]: http://www.centerim.org/index.php/Main_Page
+[first entry]: http://fnanp.in-ulm.de/blog/2014/01/16/01-woes.html
+[pidgin bugtracker]: https://developer.pidgin.im/ticket/6940
+[OTR]: https://otr.cypherpunks.ca/
+[openfire]: http://www.igniterealtime.org/projects/openfire/
+[jabberd]: https://jabberd.org/
+[jabberd2]: http://jabberd2.org/
+[metronome]: http://www.lightwitch.org/metronome
+[isode m-link]: http://www.isode.com/products/m-link.html
+[XEP-0198]: https://xmpp.org/extensions/xep-0198.html
+[XEP-0184]: https://xmpp.org/extensions/xep-0184.html
+[openfire bugtracker]: http://issues.igniterealtime.org/browse/SMACK-333
+[jabberdfiles]: https://jabberd.org/codedoc/files.html
+[jabberdbugs]: https://bugzilla.jabberd.org/
+[prosody]: http://prosody.im/
+[jabberd2bug]: https://www.mail-archive.com/jabberd2@lists.xiaoka.com/msg01653.html

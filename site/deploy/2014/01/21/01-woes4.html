@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <title>woes4.</title>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta name="author" content="michael">
+        <meta name="keywords" content="computers, networking, android, xmpp">
+        <meta name="date" content="2014-01-21T22:39:33">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="content-language" content="en">
+        <link rel="stylesheet" type="text/css" href="../../../css/all-min.css">
+        <link rel="prev" href="../../../2014/01/20/01-more.html">
+        <link rel="start" href="../../../">
+    </head>
+    <body>
+    <div id="wrap">
+        <div id="header">
+            <h1><a href="../../../">ein Blog</a></h1>
+ 	    <p class="claim">ramblings/betrachtungen</p>
+            <ul class="nav">
+                <li class="prev">
+                    <a href="../../../2014/01/20/01-more.html">more.</a>
+                </li>
+                <li class="next">
+                    <span class="disabled">next</span>
+                </li>
+                <li class="up"><a href="../../../2014/01/21/">up</a><br>
+                    <a href="../../../2014/">2014</a> /
+                    <a href="../../../2014/01/">01</a> /
+                    <a href="../../../2014/01/21/">21</a>
+                </li>
+            </ul>
+        </div>
+	<div id="main">
+        <div class="article">
+            <h2 class="title">woes4.</h2>
+            <div class="info">
+                Dienstag, 21. Januar 2014,
+                <ul class="tags">
+		    <li>Tags:</li>
+                    <li>
+                        <a href="../../../tags/computers.html">computers</a>,
+                    </li><li>
+                        <a href="../../../tags/networking.html">networking</a>,
+                    </li><li>
+                        <a href="../../../tags/android.html">android</a>,
+                    </li><li>
+                        <a href="../../../tags/xmpp.html">xmpp</a>
+                    </li>
+                </ul>
+            </div>
+            <p>So. Another day, another entry.</p>
+<p>This is a further point in my <a href="http://fnanp.in-ulm.de/blog/tags/xmpp.html">ongoing quest</a> to get to the bottom
+of XMPP on mobile devices and why it sucks and how to make it better. This
+saga started <a href="http://fnanp.in-ulm.de/blog/2014/01/16/01-woes.html">here</a>.</p>
+<h1>sending clients</h1>
+<p>I've looked at some more client software for the sending side (i.e. Linux
+based, not for Android).</p>
+<ul>
+<li>everything based on <a href="https://developer.pidgin.im/wiki/WhatIsLibpurple">libpurple</a></li>
+<li><a href="http://mcabber.com">mcabber</a></li>
+</ul>
+<h2>libpurple</h2>
+<p><a href="https://developer.pidgin.im/wiki/WhatIsLibpurple">libpurple</a> is the basis of <a href="https://developer.pidgin.im">pidgin</a>, which I've already talked about
+in the <a href="http://fnanp.in-ulm.de/blog/2014/01/16/01-woes.html">first entry</a> of this series. There are some other clients that
+use libpurple for communication, among them (also by the pidgin
+developers) or <a href="http://www.centerim.org/index.php/Main_Page">centerim</a>.</p>
+<p>Since libpurple neither shows the error messages described in the <a href="http://fnanp.in-ulm.de/blog/2014/01/16/01-woes.html">first
+entry</a> nor supports <a href="https://xmpp.org/extensions/xep-0184.html">XEP-0184</a> (message delivery receipts), none of
+the clients based on libpurple do either.</p>
+<p>There <em>is</em> an unofficial plugin for <a href="https://xmpp.org/extensions/xep-0184.html">XEP-0184</a> on the <a href="https://developer.pidgin.im/ticket/6940">pidgin
+bugtracker</a>, with no word on whether it'll ever be officially included
+into <a href="https://developer.pidgin.im">pidgin</a>.</p>
+<h2>mcabber</h2>
+<p><a href="http://mcabber.com">mcabber</a> is a console client and is, as far as I can tell, the bestest
+greatest coolest most awesome. It shows the error messages. It supports
+<a href="https://xmpp.org/extensions/xep-0184.html">XEP-0184</a>. It supports <a href="https://otr.cypherpunks.ca/">OTR</a>. And, in contrast to some other clients,
+not just as a list on a webpage but this shit actually works. Wow. Mcabber
+is great, w00h00 .. and so forth. If you need a console client, use this
+one.</p>
+<h1>more servers</h1>
+<p>This time, I'm looking at "the other" xmpp daemons out there. So what have
+we got:</p>
+<ul>
+<li><a href="http://www.igniterealtime.org/projects/openfire/">openfire</a></li>
+<li><a href="https://jabberd.org/">jabberd</a></li>
+<li><a href="http://jabberd2.org/">jabberd2</a></li>
+<li><a href="http://www.lightwitch.org/metronome">metronome</a> (based on prosody)</li>
+<li><a href="http://www.isode.com/products/m-link.html">isode m-link</a></li>
+</ul>
+<p>(also I'm sure I forgot some).</p>
+<h2>openfire</h2>
+<p><a href="http://www.igniterealtime.org/projects/openfire/">openfire</a> is Java based and Open Source (Apache License). It does not
+support <a href="https://xmpp.org/extensions/xep-0198.html">XEP-0198</a>. There is a feature request about it on the <a href="http://issues.igniterealtime.org/browse/SMACK-333">openfire
+bugtracker</a> about this which received attention from users but will,
+apparently, not be implemented soon due to manpower issues.</p>
+<h2>jabberd</h2>
+<p><a href="https://jabberd.org/">jabberd</a> does, to the best of my knowledge, not implement <a href="https://xmpp.org/extensions/xep-0198.html">XEP-0198</a>.
+I haven't found a clean list of "here are the standards we support", but
+there is a <a href="https://jabberd.org/codedoc/files.html">list of files</a> with explanations that contains
+<em>some</em> XEPs but no this one. The <a href="https://bugzilla.jabberd.org/">bugtracker</a> seems to be
+unreachable. </p>
+<h2>jabberd2</h2>
+<p><a href="http://jabberd2.org/">jabberd2</a> is a separate project from <a href="https://jabberd.org/">jabberd</a>. They do list
+<a href="https://xmpp.org/extensions/xep-0198.html">XEP-0198</a> on their "supported protocols" [page][jabberd2proto] <em>but</em>
+they mean version 0.3 of the XEP (<a href="https://www.mail-archive.com/jabberd2@lists.xiaoka.com/msg01653.html">see here</a>) which is from
+2007 and <em>quite</em> out of date and from what I know not compatible with
+modern implementations and didn't implement most of the features that this
+standard does nowadays.</p>
+<h2>metronome</h2>
+<p><a href="http://www.lightwitch.org/metronome">metronome</a> is a fork of <a href="http://prosody.im/">prosody</a> and claims to support <a href="https://xmpp.org/extensions/xep-0198.html">XEP-0198</a>.
+Since it works in prosody, I kinda assume it also works in metronome.</p>
+<h2>isode m-link</h2>
+<p><a href="http://www.isode.com/products/m-link.html">isode m-link</a> is, apparently, commercial software and I don't know and
+can't test (cf "commercial") whether it supports <a href="https://xmpp.org/extensions/xep-0198.html">XEP-0198</a> and if yes
+how well it does. Does anyone know? Please tell me, I'll amend this
+section.</p>
+        </div>
+	</div>
+	<div id="sidebar">
+	  <h2>Navigation</h2>
+	  <ul>
+	    <li><a href="../../../">Blog-Root</a></li>
+	    <li><a href="../../../tags/index.html">Tags</a></li>
+	    <li><a href="../../../2013/index.html">Archive 2013</a></li>
+	    <li><a href="http://fnanp.in-ulm.de/frederik_und_moritz/sbe/">Blog about my Kids</a></li>
+	    <li><a href="http://fnanp.in-ulm.de/">FNANP Root</a></li>
+	  </ul>
+	  <hr>
+	  <h2>Links</h2>
+	  <ul>
+	  </ul>
+	  <hr>
+	  <h2>Feed</h2>
+	  <ul>
+	    <li><a href="../../../atom.xml">ATOM</a></li>
+	  </ul>
+	  <hr>
+	  <h2>Contact</h2>
+	  <ul>
+	    <li><a href="mailto:mhellwig@in-ulm.de">Mail</a></li>
+	    <li><a href="https://twitter.com/das_aug">Twitter</a></li>
+	  </ul>
+	  <hr>
+	  <h2>Info</h2>
+	  <ul>
+	    <li><a href="http://fnanp.in-ulm.de/impressum.html">Impressum</a></li>
+	  </ul>
+	  <p>This blog is statically generated with <a href="http://fnanp.in-ulm.de/sbe/">sbe.py</a></p>
+	  <hr>
+	</div>
+        <div id="footer">
+            <ul class="nav">
+                <li class="prev">
+                    <a href="../../../2014/01/20/01-more.html">more.</a>
+                </li>
+                <li class="next">
+                    <span class="disabled">next</span>
+                </li>
+                <li class="up"><a href="../../../2014/01/21/">up</a><br>
+                    <a href="../../../2014/">2014</a> /
+                    <a href="../../../2014/01/">01</a> /
+                    <a href="../../../2014/01/21/">21</a>
+                </li>
+            </ul>
+       </div>
+        <!-- for the disqus commenting system
+            <py:if test="article.comments">
+                <script type="text/javascript">
+                    //<![CDATA[
+                    (function() {
+                        var links = document.getElementsByTagName('a');
+                        var query = '?';
+                        for(var i = 0; i < links.length; i++) {
+                        if(links[i].href.indexOf('#disqus_thread') >= 0) {
+                            query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+                        }
+                        }
+                        document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/crivens/get_num_replies.js' + query + '"></' + 'script>');
+                    })();
+                    //]]>
+                    </script>
+            </py:if>
+        -->
+    </div>
+    </body>
+</html>

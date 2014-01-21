@@ -6,6 +6,8 @@ Comments  : Off
 Trackback : On
 TagURI    : tag:fnanp.in-ulm.de,2014-01-16:2014/01/16/woes
 
+*Update 5: I've looked at more sending clients and more servers
+[here][woes4]*  
 *Update 4: Added another sending client to the list of tested software
 [here][gajim]*  
 *Update 3: I've written a new post linking to a few reactions [here][]*  
@@ -302,3 +304,4 @@ access to an iPhone. I would be happy to hear about it though.
 [prosodybug]: http://code.google.com/p/lxmppd/issues/detail?id=383
 [here]: http://fnanp.in-ulm.de/blog/2014/01/18/01-woes2.html
 [gajim]: http://fnanp.in-ulm.de/blog/2014/01/18/02-woes3.html
+[woes4]: http://fnanp.in-ulm.de/blog/2014/01/21/01-woes4.html

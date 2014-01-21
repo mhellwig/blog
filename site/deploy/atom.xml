@@ -4,8 +4,84 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2014-01-20T10:31:13Z</updated>
+    <updated>2014-01-21T22:40:59Z</updated>
     <entry>
+        <title>woes4.</title>
+        <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/21/01-woes4.html" type="text/html"/>
+        <id>tag:fnanp.in-ulm.de,2014-01-21:2014/01/21/woes4</id>
+        <updated>2014-01-21T22:40:59Z</updated>
+        <published>2014-01-21T22:39:33Z</published>
+        <category term="computers"/><category term="networking"/><category term="android"/><category term="xmpp"/>
+        <author>
+            <name>michael</name>
+        </author>
+        <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>So. Another day, another entry.</p>
+<p>This is a further point in my <a href="http://fnanp.in-ulm.de/blog/tags/xmpp.html">ongoing quest</a> to get to the bottom
+of XMPP on mobile devices and why it sucks and how to make it better. This
+saga started <a href="http://fnanp.in-ulm.de/blog/2014/01/16/01-woes.html">here</a>.</p>
+<h1>sending clients</h1>
+<p>I've looked at some more client software for the sending side (i.e. Linux
+based, not for Android).</p>
+<ul>
+<li>everything based on <a href="https://developer.pidgin.im/wiki/WhatIsLibpurple">libpurple</a></li>
+<li><a href="http://mcabber.com">mcabber</a></li>
+</ul>
+<h2>libpurple</h2>
+<p><a href="https://developer.pidgin.im/wiki/WhatIsLibpurple">libpurple</a> is the basis of <a href="https://developer.pidgin.im">pidgin</a>, which I've already talked about
+in the <a href="http://fnanp.in-ulm.de/blog/2014/01/16/01-woes.html">first entry</a> of this series. There are some other clients that
+use libpurple for communication, among them (also by the pidgin
+developers) or <a href="http://www.centerim.org/index.php/Main_Page">centerim</a>.</p>
+<p>Since libpurple neither shows the error messages described in the <a href="http://fnanp.in-ulm.de/blog/2014/01/16/01-woes.html">first
+entry</a> nor supports <a href="https://xmpp.org/extensions/xep-0184.html">XEP-0184</a> (message delivery receipts), none of
+the clients based on libpurple do either.</p>
+<p>There <em>is</em> an unofficial plugin for <a href="https://xmpp.org/extensions/xep-0184.html">XEP-0184</a> on the <a href="https://developer.pidgin.im/ticket/6940">pidgin
+bugtracker</a>, with no word on whether it'll ever be officially included
+into <a href="https://developer.pidgin.im">pidgin</a>.</p>
+<h2>mcabber</h2>
+<p><a href="http://mcabber.com">mcabber</a> is a console client and is, as far as I can tell, the bestest
+greatest coolest most awesome. It shows the error messages. It supports
+<a href="https://xmpp.org/extensions/xep-0184.html">XEP-0184</a>. It supports <a href="https://otr.cypherpunks.ca/">OTR</a>. And, in contrast to some other clients,
+not just as a list on a webpage but this shit actually works. Wow. Mcabber
+is great, w00h00 .. and so forth. If you need a console client, use this
+one.</p>
+<h1>more servers</h1>
+<p>This time, I'm looking at "the other" xmpp daemons out there. So what have
+we got:</p>
+<ul>
+<li><a href="http://www.igniterealtime.org/projects/openfire/">openfire</a></li>
+<li><a href="https://jabberd.org/">jabberd</a></li>
+<li><a href="http://jabberd2.org/">jabberd2</a></li>
+<li><a href="http://www.lightwitch.org/metronome">metronome</a> (based on prosody)</li>
+<li><a href="http://www.isode.com/products/m-link.html">isode m-link</a></li>
+</ul>
+<p>(also I'm sure I forgot some).</p>
+<h2>openfire</h2>
+<p><a href="http://www.igniterealtime.org/projects/openfire/">openfire</a> is Java based and Open Source (Apache License). It does not
+support <a href="https://xmpp.org/extensions/xep-0198.html">XEP-0198</a>. There is a feature request about it on the <a href="http://issues.igniterealtime.org/browse/SMACK-333">openfire
+bugtracker</a> about this which received attention from users but will,
+apparently, not be implemented soon due to manpower issues.</p>
+<h2>jabberd</h2>
+<p><a href="https://jabberd.org/">jabberd</a> does, to the best of my knowledge, not implement <a href="https://xmpp.org/extensions/xep-0198.html">XEP-0198</a>.
+I haven't found a clean list of "here are the standards we support", but
+there is a <a href="https://jabberd.org/codedoc/files.html">list of files</a> with explanations that contains
+<em>some</em> XEPs but no this one. The <a href="https://bugzilla.jabberd.org/">bugtracker</a> seems to be
+unreachable. </p>
+<h2>jabberd2</h2>
+<p><a href="http://jabberd2.org/">jabberd2</a> is a separate project from <a href="https://jabberd.org/">jabberd</a>. They do list
+<a href="https://xmpp.org/extensions/xep-0198.html">XEP-0198</a> on their "supported protocols" [page][jabberd2proto] <em>but</em>
+they mean version 0.3 of the XEP (<a href="https://www.mail-archive.com/jabberd2@lists.xiaoka.com/msg01653.html">see here</a>) which is from
+2007 and <em>quite</em> out of date and from what I know not compatible with
+modern implementations and didn't implement most of the features that this
+standard does nowadays.</p>
+<h2>metronome</h2>
+<p><a href="http://www.lightwitch.org/metronome">metronome</a> is a fork of <a href="http://prosody.im/">prosody</a> and claims to support <a href="https://xmpp.org/extensions/xep-0198.html">XEP-0198</a>.
+Since it works in prosody, I kinda assume it also works in metronome.</p>
+<h2>isode m-link</h2>
+<p><a href="http://www.isode.com/products/m-link.html">isode m-link</a> is, apparently, commercial software and I don't know and
+can't test (cf "commercial") whether it supports <a href="https://xmpp.org/extensions/xep-0198.html">XEP-0198</a> and if yes
+how well it does. Does anyone know? Please tell me, I'll amend this
+section.</p></div></content>
+    </entry><entry>
         <title>more.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/20/01-more.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2014-01-20:2014/01/20/more</id>
@@ -69,13 +145,15 @@ done gajim!</p></div></content>
         <title>woes.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/16/01-woes.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2014-01-16:2014/01/16/woes</id>
-        <updated>2014-01-18T17:40:27Z</updated>
+        <updated>2014-01-21T22:40:48Z</updated>
         <published>2014-01-16T16:49:29Z</published>
         <category term="computers"/><category term="networking"/><category term="android"/><category term="xmpp"/>
         <author>
             <name>michael</name>
         </author>
-        <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><em>Update 4: Added another sending client to the list of tested software
+        <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><em>Update 5: I've looked at more sending clients and more servers
+<a href="http://fnanp.in-ulm.de/blog/2014/01/21/01-woes4.html">here</a></em><br/>
+<em>Update 4: Added another sending client to the list of tested software
 <a href="http://fnanp.in-ulm.de/blog/2014/01/18/02-woes3.html">here</a></em><br/>
 <em>Update 3: I've written a new post linking to a few reactions <a href="http://fnanp.in-ulm.de/blog/2014/01/18/01-woes2.html">here</a></em><br/>
 <em>Update 2: this post has gotten a few reactions. There will be a
