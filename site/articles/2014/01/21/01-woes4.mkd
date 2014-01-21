@@ -116,4 +116,5 @@ section.
 [jabberdfiles]: https://jabberd.org/codedoc/files.html
 [jabberdbugs]: https://bugzilla.jabberd.org/
 [prosody]: http://prosody.im/
+[jabberd2proto]: https://github.com/jabberd2/jabberd2/blob/master/README.protocol
 [jabberd2bug]: https://www.mail-archive.com/jabberd2@lists.xiaoka.com/msg01653.html

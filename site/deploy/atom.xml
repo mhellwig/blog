@@ -4,12 +4,12 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2014-01-21T22:40:59Z</updated>
+    <updated>2014-01-21T22:45:03Z</updated>
     <entry>
         <title>woes4.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/21/01-woes4.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2014-01-21:2014/01/21/woes4</id>
-        <updated>2014-01-21T22:40:59Z</updated>
+        <updated>2014-01-21T22:44:58Z</updated>
         <published>2014-01-21T22:39:33Z</published>
         <category term="computers"/><category term="networking"/><category term="android"/><category term="xmpp"/>
         <author>
@@ -68,7 +68,7 @@ there is a <a href="https://jabberd.org/codedoc/files.html">list of files</a> wi
 unreachable. </p>
 <h2>jabberd2</h2>
 <p><a href="http://jabberd2.org/">jabberd2</a> is a separate project from <a href="https://jabberd.org/">jabberd</a>. They do list
-<a href="https://xmpp.org/extensions/xep-0198.html">XEP-0198</a> on their "supported protocols" [page][jabberd2proto] <em>but</em>
+<a href="https://xmpp.org/extensions/xep-0198.html">XEP-0198</a> on their "supported protocols" <a href="https://github.com/jabberd2/jabberd2/blob/master/README.protocol">page</a> <em>but</em>
 they mean version 0.3 of the XEP (<a href="https://www.mail-archive.com/jabberd2@lists.xiaoka.com/msg01653.html">see here</a>) which is from
 2007 and <em>quite</em> out of date and from what I know not compatible with
 modern implementations and didn't implement most of the features that this
