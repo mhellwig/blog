@@ -11,10 +11,12 @@ html {
 
 h1 {
 	margin:0;
+	text-align:left;
 }
 
 h2 {
 	margin:0 0 1em;
+	text-align:left;
 }
 
 hr {
