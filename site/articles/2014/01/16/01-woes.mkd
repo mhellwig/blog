@@ -6,6 +6,7 @@ Comments  : Off
 Trackback : On
 TagURI    : tag:fnanp.in-ulm.de,2014-01-16:2014/01/16/woes
 
+*Update 6: the author of yaxim does a much more complete [analysis][]*  
 *Update 5: I've looked at more sending clients and more servers
 [here][woes4]*  
 *Update 4: Added another sending client to the list of tested software
@@ -305,3 +306,4 @@ access to an iPhone. I would be happy to hear about it though.
 [here]: http://fnanp.in-ulm.de/blog/2014/01/18/01-woes2.html
 [gajim]: http://fnanp.in-ulm.de/blog/2014/01/18/02-woes3.html
 [woes4]: http://fnanp.in-ulm.de/blog/2014/01/21/01-woes4.html
+[analysis]: http://fnanp.in-ulm.de/blog/2014/01/29/01-op-co.de.html

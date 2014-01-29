@@ -4,8 +4,21 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2014-01-23T21:36:08Z</updated>
+    <updated>2014-01-29T14:41:29Z</updated>
     <entry>
+        <title>op-co.de.</title>
+        <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/29/01-op-co.de.html" type="text/html"/>
+        <id>tag:fnanp.in-ulm.de,2014-01-29:2014/01/29/op-co.de</id>
+        <updated>2014-01-29T14:41:29Z</updated>
+        <published>2014-01-29T14:41:25Z</published>
+        <category term="computers"/><category term="networking"/><category term="android"/><category term="xmpp"/>
+        <author>
+            <name>michael</name>
+        </author>
+        <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Over at <a href="http://op-co.de/">op-co.de</a>, the author of the <a href="https://yaxim.org/">yaxim</a> messenger does a much
+more complete <a href="http://op-co.de/blog/posts/XEP-0198-update-2014/">analysis</a> of the current situation of mobile XMPP.</p>
+<p>TLDR: it's even worse. Enjoy ;)</p></div></content>
+    </entry><entry>
         <title>woes4.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/21/01-woes4.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2014-01-21:2014/01/21/woes4</id>
@@ -148,13 +161,14 @@ done gajim!</p></div></content>
         <title>woes.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/16/01-woes.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2014-01-16:2014/01/16/woes</id>
-        <updated>2014-01-21T22:40:48Z</updated>
+        <updated>2014-01-29T14:37:49Z</updated>
         <published>2014-01-16T16:49:29Z</published>
         <category term="computers"/><category term="networking"/><category term="android"/><category term="xmpp"/>
         <author>
             <name>michael</name>
         </author>
-        <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><em>Update 5: I've looked at more sending clients and more servers
+        <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><em>Update 6: the author of yaxim does a much more complete <a href="http://fnanp.in-ulm.de/blog/2014/01/29/01-op-co.de.html">analysis</a></em><br/>
+<em>Update 5: I've looked at more sending clients and more servers
 <a href="http://fnanp.in-ulm.de/blog/2014/01/21/01-woes4.html">here</a></em><br/>
 <em>Update 4: Added another sending client to the list of tested software
 <a href="http://fnanp.in-ulm.de/blog/2014/01/18/02-woes3.html">here</a></em><br/>

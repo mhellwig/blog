@@ -1,0 +1,16 @@
+Title     : op-co.de.
+Author    : michael
+Created   : 2014-01-29T14:41:25
+Tags      : computers, networking, android, xmpp
+Comments  : Off
+Trackback : On
+TagURI    : tag:fnanp.in-ulm.de,2014-01-29:2014/01/29/op-co.de
+
+Over at [op-co.de][], the author of the [yaxim][] messenger does a much
+more complete [analysis][] of the current situation of mobile XMPP.
+
+TLDR: it's even worse. Enjoy ;)
+
+[op-co.de]: http://op-co.de/
+[yaxim]: https://yaxim.org/
+[analysis]: http://op-co.de/blog/posts/XEP-0198-update-2014/
