@@ -4,8 +4,20 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2014-01-29T14:41:29Z</updated>
+    <updated>2014-01-30T21:06:22Z</updated>
     <entry>
+        <title>yaxim.</title>
+        <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/30/01-yaxim.html" type="text/html"/>
+        <id>tag:fnanp.in-ulm.de,2014-01-30:2014/01/30/01-yaxim</id>
+        <updated>2014-01-30T21:06:22Z</updated>
+        <published>2014-01-30T21:06:20Z</published>
+        <category term="networking"/><category term="android"/><category term="computers"/><category term="xmpp"/>
+        <author>
+            <name>michael</name>
+        </author>
+        <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Also, adding to my last post, <a href="https://yaxim.org">yaxim</a> is now officially updated to
+support XEP-0198.</p></div></content>
+    </entry><entry>
         <title>op-co.de.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/29/01-op-co.de.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2014-01-29:2014/01/29/op-co.de</id>

@@ -1,0 +1,12 @@
+Title     : yaxim.
+Author    : michael
+Created   : 2014-01-30T21:06:20
+Tags      : networking, android, computers, xmpp
+Comments  : Off
+Trackback : On
+TagURI    : tag:fnanp.in-ulm.de,2014-01-30:2014/01/30/01-yaxim
+
+Also, adding to my last post, [yaxim][] is now officially updated to
+support XEP-0198.
+
+[yaxim]: https://yaxim.org
