@@ -4,7 +4,7 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2014-01-30T21:06:22Z</updated>
+    <updated>2014-01-31T10:41:21Z</updated>
     <entry>
         <title>yaxim.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/30/01-yaxim.html" type="text/html"/>
@@ -21,14 +21,14 @@ support XEP-0198.</p></div></content>
         <title>op-co.de.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/29/01-op-co.de.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2014-01-29:2014/01/29/op-co.de</id>
-        <updated>2014-01-29T14:41:29Z</updated>
+        <updated>2014-01-31T10:41:11Z</updated>
         <published>2014-01-29T14:41:25Z</published>
         <category term="computers"/><category term="networking"/><category term="android"/><category term="xmpp"/>
         <author>
             <name>michael</name>
         </author>
         <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Over at <a href="http://op-co.de/">op-co.de</a>, the author of the <a href="https://yaxim.org/">yaxim</a> messenger does a much
-more complete <a href="http://op-co.de/blog/posts/XEP-0198-update-2014/">analysis</a> of the current situation of mobile XMPP.</p>
+more complete <a href="http://op-co.de/blog/posts/mobile_xmpp_in_2014/">analysis</a> of the current situation of mobile XMPP.</p>
 <p>TLDR: it's even worse. Enjoy ;)</p></div></content>
     </entry><entry>
         <title>woes4.</title>

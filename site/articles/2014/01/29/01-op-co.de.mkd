@@ -13,4 +13,4 @@ TLDR: it's even worse. Enjoy ;)
 
 [op-co.de]: http://op-co.de/
 [yaxim]: https://yaxim.org/
-[analysis]: http://op-co.de/blog/posts/XEP-0198-update-2014/
+[analysis]: http://op-co.de/blog/posts/mobile_xmpp_in_2014/
