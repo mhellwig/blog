@@ -1,0 +1,17 @@
+Title     : woes5.
+Author    : michael
+Created   : 2014-07-10T14:22:42
+Tags      : computers, networking, android, xmpp
+Comments  : Off
+Trackback : On
+TagURI    : tag:fnanp.in-ulm.de,2014-07-10:2014/07/10/woes5
+
+It has recently come to my attention that
+[ejabberd](http://www.process-one.net/en/ejabberd/) has now seen the light
+and [included](https://github.com/processone/ejabberd/pull/166)
+[XEP-0198: Stream Management](https://xmpp.org/extensions/xep-0198.html)
+into its XMPP daemon.
+
+Given this and the fact that [jabber.ccc.de](http://web.jabber.ccc.de/) is
+running the version in question, things are looking good for mobile XMPP.
+At least in theory. I will do some testing and report back afterwards ..

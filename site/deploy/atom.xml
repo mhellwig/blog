@@ -4,8 +4,26 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2014-01-31T10:41:21Z</updated>
+    <updated>2014-07-10T14:22:45Z</updated>
     <entry>
+        <title>woes5.</title>
+        <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/07/10/01-woes5.html" type="text/html"/>
+        <id>tag:fnanp.in-ulm.de,2014-07-10:2014/07/10/woes5</id>
+        <updated>2014-07-10T14:22:45Z</updated>
+        <published>2014-07-10T14:22:42Z</published>
+        <category term="computers"/><category term="networking"/><category term="android"/><category term="xmpp"/>
+        <author>
+            <name>michael</name>
+        </author>
+        <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>It has recently come to my attention that
+<a href="http://www.process-one.net/en/ejabberd/">ejabberd</a> has now seen the light
+and <a href="https://github.com/processone/ejabberd/pull/166">included</a>
+<a href="https://xmpp.org/extensions/xep-0198.html">XEP-0198: Stream Management</a>
+into its XMPP daemon.</p>
+<p>Given this and the fact that <a href="http://web.jabber.ccc.de/">jabber.ccc.de</a> is
+running the version in question, things are looking good for mobile XMPP.
+At least in theory. I will do some testing and report back afterwards ..</p></div></content>
+    </entry><entry>
         <title>yaxim.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/30/01-yaxim.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2014-01-30:2014/01/30/01-yaxim</id>
