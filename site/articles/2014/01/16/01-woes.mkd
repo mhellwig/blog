@@ -6,6 +6,7 @@ Comments  : Off
 Trackback : On
 TagURI    : tag:fnanp.in-ulm.de,2014-01-16:2014/01/16/woes
 
+*Update 7: ejabberd has [seen the light][woes5]*
 *Update 6: the author of yaxim does a much more complete [analysis][]*  
 *Update 5: I've looked at more sending clients and more servers
 [here][woes4]*  
@@ -307,3 +308,4 @@ access to an iPhone. I would be happy to hear about it though.
 [gajim]: http://fnanp.in-ulm.de/blog/2014/01/18/02-woes3.html
 [woes4]: http://fnanp.in-ulm.de/blog/2014/01/21/01-woes4.html
 [analysis]: http://fnanp.in-ulm.de/blog/2014/01/29/01-op-co.de.html
+[woes5]: http://fnanp.in-ulm.de/blog/2014/07/10/01-woes5.html

@@ -4,7 +4,7 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2014-07-10T14:22:45Z</updated>
+    <updated>2014-07-10T14:30:36Z</updated>
     <entry>
         <title>woes5.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/07/10/01-woes5.html" type="text/html"/>
@@ -191,13 +191,14 @@ done gajim!</p></div></content>
         <title>woes.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/01/16/01-woes.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2014-01-16:2014/01/16/woes</id>
-        <updated>2014-01-29T14:37:49Z</updated>
+        <updated>2014-07-10T14:30:28Z</updated>
         <published>2014-01-16T16:49:29Z</published>
         <category term="computers"/><category term="networking"/><category term="android"/><category term="xmpp"/>
         <author>
             <name>michael</name>
         </author>
-        <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><em>Update 6: the author of yaxim does a much more complete <a href="http://fnanp.in-ulm.de/blog/2014/01/29/01-op-co.de.html">analysis</a></em><br/>
+        <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><em>Update 7: ejabberd has <a href="http://fnanp.in-ulm.de/blog/2014/07/10/01-woes5.html">seen the light</a></em>
+<em>Update 6: the author of yaxim does a much more complete <a href="http://fnanp.in-ulm.de/blog/2014/01/29/01-op-co.de.html">analysis</a></em><br/>
 <em>Update 5: I've looked at more sending clients and more servers
 <a href="http://fnanp.in-ulm.de/blog/2014/01/21/01-woes4.html">here</a></em><br/>
 <em>Update 4: Added another sending client to the list of tested software
