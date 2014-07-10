@@ -6,7 +6,7 @@ Comments  : Off
 Trackback : On
 TagURI    : tag:fnanp.in-ulm.de,2014-01-16:2014/01/16/woes
 
-*Update 7: ejabberd has [seen the light][woes5]*
+*Update 7: ejabberd has [seen the light][woes5]*  
 *Update 6: the author of yaxim does a much more complete [analysis][]*  
 *Update 5: I've looked at more sending clients and more servers
 [here][woes4]*  
