@@ -4,12 +4,12 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2015-07-21T10:25:56Z</updated>
+    <updated>2015-07-21T10:42:13Z</updated>
     <entry>
         <title>tlsgatling.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2015/07/21/01-tlsgatling.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2015-07-21:2015/07/21/tlsgatling</id>
-        <updated>2015-07-21T10:25:49Z</updated>
+        <updated>2015-07-21T10:42:07Z</updated>
         <published>2015-07-21T10:18:10Z</published>
         <category term="computers"/><category term="networking"/><category term="security"/>
         <author>
@@ -27,19 +27,7 @@ this to work. If you have <em>that</em>, the instructions in the README.tls of
 gatling do work.</p>
 <p>Now I just need to figure out a policy on http vs https and whether to
 redirect all http connects to https or not. Probably better to do that
-when I'm no longer on CAcert, though.</p>
-<p>Also, giving a new feature a shot below ..</p>
-<script id="echochamber">
-    var EchoChamber = window.EchoChamber || {};
-    (function() {
-      EchoChamber.discussionURL = window.location;
-      var script = document.createElement('script');
-      script.src = '/temp/main.js';
-      script.async = true;
-      var entry = document.getElementById('echochamber');
-      entry.parentNode.insertBefore(script, entry);
-    })();
-</script></div></content>
+when I'm no longer on CAcert, though.</p></div></content>
     </entry><entry>
         <title>woes5.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2014/07/10/01-woes5.html" type="text/html"/>
