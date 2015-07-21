@@ -4,12 +4,12 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2015-07-21T10:21:09Z</updated>
+    <updated>2015-07-21T10:25:56Z</updated>
     <entry>
         <title>tlsgatling.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2015/07/21/01-tlsgatling.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2015-07-21:2015/07/21/tlsgatling</id>
-        <updated>2015-07-21T10:18:19Z</updated>
+        <updated>2015-07-21T10:25:49Z</updated>
         <published>2015-07-21T10:18:10Z</published>
         <category term="computers"/><category term="networking"/><category term="security"/>
         <author>
@@ -34,7 +34,7 @@ when I'm no longer on CAcert, though.</p>
     (function() {
       EchoChamber.discussionURL = window.location;
       var script = document.createElement('script');
-      script.src = 'main.js';
+      script.src = '/temp/main.js';
       script.async = true;
       var entry = document.getElementById('echochamber');
       entry.parentNode.insertBefore(script, entry);
