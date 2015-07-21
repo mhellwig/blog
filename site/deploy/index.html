@@ -3,7 +3,7 @@
     <head>
         <title>ein Blog</title>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-        <meta name="date" content="2014-07-10T14:22:42">
+        <meta name="date" content="2015-07-21T10:18:10">
         <meta name="robots" content="index, follow">
         <meta http-equiv="content-language" content="en">
         <link rel="stylesheet" type="text/css" href="./css/all-min.css">
@@ -26,6 +26,48 @@
         </div>
 	<div id="main">
         <div class="article">
+            <h2 class="title"><a href="./2015/07/21/01-tlsgatling.html">tlsgatling.</a></h2>
+            <div class="info">
+                Dienstag, 21. Juli 2015,
+		<ul class="tags">
+		    <li>Tags:</li>
+                    <li>
+                        <a href="./tags/computers.html">computers</a>,
+                    </li><li>
+                        <a href="./tags/networking.html">networking</a>,
+                    </li><li>
+                        <a href="./tags/security.html">security</a>
+                    </li>
+                </ul>
+            </div>
+            <p>So. After much too long I've gotten off my butt and managed to enable
+https on this here very webserver. The software in use is <a href="https://www.fefe.de/gatling/">gatling</a> by
+<a href="https://www.fefe.de">fefe</a>. Still using a <a href="https://cacert.org">CAcert certificate</a>, I'm afraid, but at this
+point I'm just waiting until <a href="https://letsencrypt.org/">let's encrypt</a> is operational.</p>
+<p>I've used gatling since for-fucking-ever but never really looked at the
+tlsgatling part because I was too lazy. Turns out, the instructions on how
+to build it aren't actually part of gatling because you need to start
+earlier, you need to have openssl built with <a href="https://www.fefe.de/dietlibc/">dietlibc</a> in order for
+this to work. If you have <em>that</em>, the instructions in the README.tls of
+gatling do work.</p>
+<p>Now I just need to figure out a policy on http vs https and whether to
+redirect all http connects to https or not. Probably better to do that
+when I'm no longer on CAcert, though.</p>
+<p>Also, giving a new feature a shot below ..</p>
+<script id="echochamber">
+    var EchoChamber = window.EchoChamber || {};
+    (function() {
+      EchoChamber.discussionURL = window.location;
+      var script = document.createElement('script');
+      script.src = 'main.js';
+      script.async = true;
+      var entry = document.getElementById('echochamber');
+      entry.parentNode.insertBefore(script, entry);
+    })();
+</script>
+	  <hr>
+	  <hr>
+        </div><div class="article">
             <h2 class="title"><a href="./2014/07/10/01-woes5.html">woes5.</a></h2>
             <div class="info">
                 Donnerstag, 10. Juli 2014,
