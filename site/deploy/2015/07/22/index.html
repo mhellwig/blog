@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <title>Mittwoch, 22. Juli 2015</title>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta name="date" content="2015-07-22T14:40:52">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="content-language" content="en">
+        <link rel="stylesheet" type="text/css" href="../../../css/all-min.css">
+        <link rel="prev" href="../../../2015/07/21/">
+        <link rel="start" href="../../../">
+    </head>
+    <body>
+    <div id="wrap">
+        <div id="header">
+            <h1><a href="../../../">ein Blog</a></h1>
+	    <p class="claim">ramblings/betrachtungen</p>
+            <ul class="nav">
+                <li class="prev">
+                    <a href="../../../2015/07/21/">21. Juli 2015</a>
+                </li>
+                <li class="next">
+                    <span class="disabled">next</span>
+                </li>
+                <li class="up"><a href="../../../2015/07/">up</a><br>
+                    <a href="../../../2015/">2015</a> /
+                    <a href="../../../2015/07/">07</a>
+                </li>
+            </ul>
+        </div>
+	<div id="main">
+        <div class="article">
+            <h2 class="title"><a href="../../../2015/07/22/01-sync.html">sync.</a></h2>
+            <div class="info">
+                Mittwoch, 22. Juli 2015,
+                <ul class="tags">
+		    <li>Tags:</li>
+                    <li>
+                        <a href="../../../tags/computers.html">computers</a>,
+                    </li><li>
+                        <a href="../../../tags/networking.html">networking</a>,
+                    </li><li>
+                        <a href="../../../tags/groupware.html">groupware</a>
+                    </li>
+                </ul>
+            </div>
+            <p>The question of how to keep all my (important) data mostly in sync across
+my devices (appointments, contacts, tasks, notes, pictures) while not
+transferring said data across the computers of untrusted third parties
+(aka "the cloud") is one that I worry about again and again.</p>
+<p>My current solution for pictures is just to use <a href="https://rsync.samba.org/">rsync</a> since </p>
+<ul>
+<li>the number of pictures only grows, never gets smaller,</li>
+<li>there is a somewhat decent <a href="https://play.google.com/store/apps/details?id=eu.kowalczuk.rsync4android">rsync app</a> for Android.</li>
+</ul>
+<p>Currently I'm using <a href="http://kolab.org/">kolab</a> for all the groupware-y stuff (appointments,
+tasks, notes). I've used <a href="https://owncloud.org/">owncloud</a> before but somehow, I lost trust in
+that project .. it seemed like its developers were more interested in
+adding new features than in fixing old problems, plus the web interface
+got slower and slower and slower.</p>
+<p>On my phone, things are straightforward. I use caldav and carddav to
+access my data via well known Android apps and everything is peachy.</p>
+<p>But, the more interesting part (to me) is: I use <a href="http://www.mutt.org/">mutt</a> as my main mail
+client. How to get the email-addresses from kolab into mutt? Enter
+<a href="http://lostpackets.de/pycarddav/">pycarddav</a>. It downloads data from a carddav server and puts them in an
+sqlite file/db and then also provides a query-tool that can generate
+output in a mutt-compatible way. So far so straightforward and according
+to the help-files and the findable documentation and so forth.</p>
+<p>In order to find the exact address-book url a kolab-installation provides
+via carddav, I was advised to "talk to my admin", since apparently it is
+possible to activate an option somewhere in the admin interface for
+kolab/roundcube that will allow users to have that url displayed to them.
+There is an easier way, though. Just connect your webbrowser to the url
+your kolab uses for carddav in general, enter your credentials and then
+click around until you are in your address book .. there, there's your
+url.</p>
+<p>The only real problem that needed some trial-and-error to get around was
+then actually <em>using</em> that url in pycardsyncer (part of pycarddav). The
+error message I kept getting wasn't very helpful ("resource missing" or
+something to that effect, even though the resource line was present in my
+config file). Turns out, if there is a percent-sign in your carddav-url
+(which there is if your username contains an @-sign), said percent-sign
+has to be escaped in the config file by putting a second percent sign in
+front of it (making it %%).</p>
+<p>After that, pycardsyncer ran smoothly for me.</p>
+<p>If it still breaks for you, there's advise out there to run it in debug
+mode (-d) and this might shed some light on how/where it breaks
+(candidates are e.g. problematic characters in a field in a vcard
+somewhere).</p>
+<p>HTH. HAND. As they say.</p>
+	  <hr>
+	  <hr>
+        </div>
+	</div>
+	<div id="sidebar">
+	  <h2>Navigation</h2>
+	  <ul>
+	    <li><a href="../../../">Blog-Root</a></li>
+	    <li><a href="../../../tags/index.html">Tags</a></li>
+	    <li><a href="../../../2013/index.html">Archive 2013</a></li>
+	    <li><a href="http://fnanp.in-ulm.de/frederik_und_moritz/sbe/">Blog about my Kids</a></li>
+	    <li><a href="http://fnanp.in-ulm.de/">FNANP Root</a></li>
+	  </ul>
+	  <hr>
+	  <h2>Links</h2>
+	  <ul>
+	  </ul>
+	  <hr>
+	  <h2>Feed</h2>
+	  <ul>
+	    <li><a href="../../../atom.xml">ATOM</a></li>
+	  </ul>
+	  <hr>
+	  <h2>Contact</h2>
+	  <ul>
+	    <li><a href="mailto:mhellwig@in-ulm.de">Mail</a></li>
+	    <li><a href="https://twitter.com/das_aug">Twitter</a></li>
+	  </ul>
+	  <hr>
+	  <h2>Info</h2>
+	  <ul>
+	    <li><a href="http://fnanp.in-ulm.de/impressum.html">Impressum</a></li>
+	  </ul>
+	  <p>This blog is statically generated with <a href="http://fnanp.in-ulm.de/sbe/">sbe.py</a></p>
+	  <hr>
+	</div>
+        <div id="footer">
+            <ul class="nav">
+                <li class="prev">
+                    <a href="../../../2015/07/21/">21. Juli 2015</a>
+                </li>
+                <li class="next">
+                    <span class="disabled">next</span>
+                </li>
+                <li class="up"><a href="../../../2015/07/">up</a><br>
+                    <a href="../../../2015/">2015</a> /
+                    <a href="../../../2015/07/">07</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </body>
+</html>

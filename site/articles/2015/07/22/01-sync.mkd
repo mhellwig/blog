@@ -1,0 +1,70 @@
+Title     : sync.
+Author    : michael
+Created   : 2015-07-22T14:40:52
+Tags      : computers, networking, groupware
+Comments  : Off
+Trackback : On
+TagURI    : tag:fnanp.in-ulm.de,2015-07-22:2015/07/22/sync
+
+The question of how to keep all my (important) data mostly in sync across
+my devices (appointments, contacts, tasks, notes, pictures) while not
+transferring said data across the computers of untrusted third parties
+(aka "the cloud") is one that I worry about again and again.
+
+My current solution for pictures is just to use [rsync][] since 
+
+* the number of pictures only grows, never gets smaller,
+* there is a somewhat decent [rsync app][rsync1] for Android.
+
+Currently I'm using [kolab][] for all the groupware-y stuff (appointments,
+tasks, notes). I've used [owncloud][] before but somehow, I lost trust in
+that project .. it seemed like its developers were more interested in
+adding new features than in fixing old problems, plus the web interface
+got slower and slower and slower.
+
+On my phone, things are straightforward. I use caldav and carddav to
+access my data via well known Android apps and everything is peachy.
+
+But, the more interesting part (to me) is: I use [mutt][] as my main mail
+client. How to get the email-addresses from kolab into mutt? Enter
+[pycarddav][]. It downloads data from a carddav server and puts them in an
+sqlite file/db and then also provides a query-tool that can generate
+output in a mutt-compatible way. So far so straightforward and according
+to the help-files and the findable documentation and so forth.
+
+In order to find the exact address-book url a kolab-installation provides
+via carddav, I was advised to "talk to my admin", since apparently it is
+possible to activate an option somewhere in the admin interface for
+kolab/roundcube that will allow users to have that url displayed to them.
+There is an easier way, though. Just connect your webbrowser to the url
+your kolab uses for carddav in general, enter your credentials and then
+click around until you are in your address book .. there, there's your
+url.
+
+The only real problem that needed some trial-and-error to get around was
+then actually _using_ that url in pycardsyncer (part of pycarddav). The
+error message I kept getting wasn't very helpful ("resource missing" or
+something to that effect, even though the resource line was present in my
+config file). Turns out, if there is a percent-sign in your carddav-url
+(which there is if your username contains an @-sign), said percent-sign
+has to be escaped in the config file by putting a second percent sign in
+front of it (making it %%).
+
+After that, pycardsyncer ran smoothly for me.
+
+If it still breaks for you, there's advise out there to run it in debug
+mode (-d) and this might shed some light on how/where it breaks
+(candidates are e.g. problematic characters in a field in a vcard
+somewhere).
+
+HTH. HAND. As they say.
+
+
+
+
+[rsync]: https://rsync.samba.org/
+[rsync1]: https://play.google.com/store/apps/details?id=eu.kowalczuk.rsync4android
+[kolab]: http://kolab.org/
+[owncloud]: https://owncloud.org/
+[mutt]: http://www.mutt.org/
+[pycarddav]: http://lostpackets.de/pycarddav/

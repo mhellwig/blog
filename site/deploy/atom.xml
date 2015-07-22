@@ -4,8 +4,62 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2015-07-21T10:42:13Z</updated>
+    <updated>2015-07-22T14:40:57Z</updated>
     <entry>
+        <title>sync.</title>
+        <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2015/07/22/01-sync.html" type="text/html"/>
+        <id>tag:fnanp.in-ulm.de,2015-07-22:2015/07/22/sync</id>
+        <updated>2015-07-22T14:40:57Z</updated>
+        <published>2015-07-22T14:40:52Z</published>
+        <category term="computers"/><category term="networking"/><category term="groupware"/>
+        <author>
+            <name>michael</name>
+        </author>
+        <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>The question of how to keep all my (important) data mostly in sync across
+my devices (appointments, contacts, tasks, notes, pictures) while not
+transferring said data across the computers of untrusted third parties
+(aka "the cloud") is one that I worry about again and again.</p>
+<p>My current solution for pictures is just to use <a href="https://rsync.samba.org/">rsync</a> since </p>
+<ul>
+<li>the number of pictures only grows, never gets smaller,</li>
+<li>there is a somewhat decent <a href="https://play.google.com/store/apps/details?id=eu.kowalczuk.rsync4android">rsync app</a> for Android.</li>
+</ul>
+<p>Currently I'm using <a href="http://kolab.org/">kolab</a> for all the groupware-y stuff (appointments,
+tasks, notes). I've used <a href="https://owncloud.org/">owncloud</a> before but somehow, I lost trust in
+that project .. it seemed like its developers were more interested in
+adding new features than in fixing old problems, plus the web interface
+got slower and slower and slower.</p>
+<p>On my phone, things are straightforward. I use caldav and carddav to
+access my data via well known Android apps and everything is peachy.</p>
+<p>But, the more interesting part (to me) is: I use <a href="http://www.mutt.org/">mutt</a> as my main mail
+client. How to get the email-addresses from kolab into mutt? Enter
+<a href="http://lostpackets.de/pycarddav/">pycarddav</a>. It downloads data from a carddav server and puts them in an
+sqlite file/db and then also provides a query-tool that can generate
+output in a mutt-compatible way. So far so straightforward and according
+to the help-files and the findable documentation and so forth.</p>
+<p>In order to find the exact address-book url a kolab-installation provides
+via carddav, I was advised to "talk to my admin", since apparently it is
+possible to activate an option somewhere in the admin interface for
+kolab/roundcube that will allow users to have that url displayed to them.
+There is an easier way, though. Just connect your webbrowser to the url
+your kolab uses for carddav in general, enter your credentials and then
+click around until you are in your address book .. there, there's your
+url.</p>
+<p>The only real problem that needed some trial-and-error to get around was
+then actually <em>using</em> that url in pycardsyncer (part of pycarddav). The
+error message I kept getting wasn't very helpful ("resource missing" or
+something to that effect, even though the resource line was present in my
+config file). Turns out, if there is a percent-sign in your carddav-url
+(which there is if your username contains an @-sign), said percent-sign
+has to be escaped in the config file by putting a second percent sign in
+front of it (making it %%).</p>
+<p>After that, pycardsyncer ran smoothly for me.</p>
+<p>If it still breaks for you, there's advise out there to run it in debug
+mode (-d) and this might shed some light on how/where it breaks
+(candidates are e.g. problematic characters in a field in a vcard
+somewhere).</p>
+<p>HTH. HAND. As they say.</p></div></content>
+    </entry><entry>
         <title>tlsgatling.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2015/07/21/01-tlsgatling.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2015-07-21:2015/07/21/tlsgatling</id>
