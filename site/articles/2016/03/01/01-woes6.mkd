@@ -38,6 +38,12 @@ Facebook Messenger. Which I *would* flat out refuse.
 
 This future sucks. I want a different one, please.
 
+**Addendum:** What I kind of wanted to say but actually forgot to write
+down is: I can't really fault people for preferring one of the silo-driven
+apps mentioned above given the state of client software and protocol. I
+mean maybe we're slowly getting there with [conversations][], but IMO it's
+too little, too late.
+
 
 
 [last]: http://fnanp.in-ulm.de/blog/2014/07/10/01-woes5.html
@@ -49,3 +55,4 @@ This future sucks. I want a different one, please.
 [Whisperpush]: http://www.cyanogenmod.org/blog/whisperpush-secure-messaging-integration
 [Cyanogenmod]: http://www.cyanogenmod.org
 [Slack]: https://slack.com
+[conversations]: https://conversations.im/
