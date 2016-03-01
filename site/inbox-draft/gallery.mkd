@@ -1,0 +1,29 @@
+Title: decisions.
+Tags: computers, gallery, photos
+
+In keeping with my philosophy that led to using this blogging engine I
+also use a static gallery generation software, in my case [iimage][]. I
+use it for my "[all kinds of pictures][gal]" site as well as the
+password-protected gallery of pictures of my kids (password because duh,
+they're my kids).
+
+There aren't too many new pictures in that public gallery, and the one
+with childrens pictures also hasn't been updated in a while because, while
+iimage does *work* as well as it ever did, it kinda .. doesn't fulfill me
+with joy anymore, so to speak. I look at the resulting gallery and go
+"meh".
+
+So.
+
+What do I want from a gallery?
+
+* it should be static (i.e. it is a tool that creates a set of files that
+  can be put onto a stupid webserver that is only capable of serving
+  static files)
+* 
+
+
+
+
+[iimage]: https://www.ronsc.de/iimage/iimage
+[gal]: http://fnanp.in-ulm.de/photos/

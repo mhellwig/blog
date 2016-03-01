@@ -1,0 +1,51 @@
+Title     : woes6.
+Author    : michael
+Created   : 2016-03-01T11:38:42
+Tags      : computers, networking, android, xmpp
+Comments  : Off
+Trackback : On
+TagURI    : tag:fnanp.in-ulm.de,2016-03-01:2016/03/01/woes6
+
+So. One and a half years have passed since the [last][] woes entry. What
+has changed? Why did I not continue writing them? What is my thinking now?
+
+Well.
+
+Basically, I have given up.
+
+Or rather: it turns out that anyone of my acquaintances that I can still
+reach via xmpp, I can reach via IRC just as easily. All the others have
+retreated to the [silos][] (there is actually an interesting article
+behind that link, not just a definition). Now of course, [some][signal]
+silos are [less][threema] bad than [ot][][hers][]. But they're still
+silos. In the case of Signal, federation is apparently possible but the
+Open Whispersystems team currently doesn't allow it. I'm sure, they have a
+blog post somewhere where they explain that it's better for their users
+not to have it enabled. And to tell the truth, if we look at the history
+of [Whisperpush][] (i.e. the effor to integrate the Textsecure (i.e.
+Signal) protocol directly into [Cyanogenmod][]), which was in essence a
+second Signal server, it looks as they've been proven right since that was
+a bit of a clusterfuck, which, in the end, left its users stranded AFAIK.
+
+So, where do we go from here? Nowhere, I think. For those friends who I
+can easily talk to via IRC, I do that. Others, I talk to via Signal or
+Threema because it's *really* not my thing to evangelize at them at length
+about how they're not being ideologically pure. So far, I've managed to
+avoid being a member of any team or group that uses [Slack][]. I'm told
+it's more or less "IRC with like buttons and pictures". Hooray, I guess.
+Also luckily, I don't seem to know anyone who wants to talk to me via
+Facebook Messenger. Which I *would* flat out refuse.
+
+This future sucks. I want a different one, please.
+
+
+
+[last]: http://fnanp.in-ulm.de/blog/2014/07/10/01-woes5.html
+[silos]: https://www.linuxjournal.com/content/giving-silos-their-due
+[signal]: https://whispersystems.org
+[threema]: https://threema.ch
+[ot]: https://telegram.org
+[hers]: https://www.whatsapp.com
+[Whisperpush]: http://www.cyanogenmod.org/blog/whisperpush-secure-messaging-integration
+[Cyanogenmod]: http://www.cyanogenmod.org
+[Slack]: https://slack.com
