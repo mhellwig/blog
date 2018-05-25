@@ -1,45 +1,51 @@
 <?python from genshi import HTML ?>
-<?python top = "../../" ?>
+<?python top = "./" ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:py="http://genshi.edgewall.org/">
+      xmlns:py="http://genshi.edgewall.org/"
+      lang="en">
     <head>
-        <title>${unicode(c.get_date().strftime("%B %Y"),"utf-8")}</title>
+        <title>ein Blog</title>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="date" py:if="c" content="${c[0].get_article().created.isoformat()}" />
         <meta name="robots" content="index, follow" />
         <meta http-equiv="content-language" content="en" />
         <link rel="stylesheet" type="text/css" href="${top}css/all-min.css" />
-        <link py:if="c.next" rel="next" href="${top}${c.next.get_deploy_path()}" />
-        <link py:if="c.prev" rel="prev" href="${top}${c.prev.get_deploy_path()}" />
-        <link rel="start" href="${top}" />
+        <link rel="alternate" type="application/atom+xml" title="ein Blog" href="${top}atom.xml" />
     </head>
     <body>
     <div id="wrap">
         <div id="header">
             <h1><a href="${top}">ein Blog</a></h1>
 	    <p class="claim">ramblings/betrachtungen</p>
-            <ul py:def="navigation(node)" class="nav">
+            <ul py:def="navigation(node_list)" class="nav">
                 <li class="prev">
-                    <a py:if="c.prev" href="${top}${c.prev.get_deploy_path()}">${unicode(c.prev.get_date().strftime("%B %Y"),"utf-8")}</a>
-                    <span py:if="not c.prev" class="disabled">previous</span>
+                    <a py:if="node_list[-1].parent.prev" href="${top}${node_list[-1].parent.prev.get_deploy_path()}">${unicode(node_list[-1].parent.prev.get_date().strftime("%d. %B %Y"),"utf-8")}</a>
+                    <span py:if="not node_list[-1].parent.prev" class="disabled">previous</span>
                 </li>
                 <li class="next">
-                    <a py:if="c.next" href="${top}${c.next.get_deploy_path()}">${unicode(c.next.get_date().strftime("%B %Y"),"utf-8")}</a>
-                    <span py:if="not c.next" class="disabled">next</span>
+                    <span class="disabled">next</span>
                 </li>
-                <li class="up"><a href="${top}${c.parent.get_deploy_path()}">up</a><br/>
-                    <a href="${top}${c.parent.get_deploy_path()}">${c.parent.get_base_name()}</a>
-                </li>
+                <li class="up"><a href="${top}tags/">Tags</a></li>
             </ul>
             ${navigation(c)}
         </div>
 	<div id="main">
-        <div class="article">
-            <ul py:if="c.children">
-                <li py:for="day in c.children">
-                    <a href="${top}${day.get_deploy_path()}">${unicode(day.get_date().strftime("%d. %B %Y"),"utf-8")}</a> (${len(day.children)} Artikel)
-                </li>
-            </ul>
+        <div class="article" py:for="node in c">
+            <?python article=node.get_article()?>
+            <h2 class="title"><a href="${top}${node.get_deploy_path()}">${article.title}</a></h2>
+            <div class="info">
+                ${unicode(article.created.strftime("%A, %d. %B %Y"),"utf-8")}, 
+		<ul class="tags" py:if="article.tags">
+		    <li>Tags:</li>
+                    <li py:for="i, tag in enumerate(article.tags)">
+                        <a href="${top}tags/${tag.lower()}.html">${tag}</a><py:if test="i != len(article.tags)-1">,</py:if>
+                    </li>
+                </ul>
+            </div>
+            ${HTML(article.get_html_with_abs_links(node.parent.get_deploy_path()))}
+	  <hr />
+	  <hr />
         </div>
 	</div>
 	<div id="sidebar">
@@ -69,7 +75,7 @@
 	  <hr />
 	  <h2>Info</h2>
 	  <ul>
-	    <li><a href="http://fnanp.in-ulm.de/impressum.html">Impressum und Datenschutzerkl&auml;rung / privacy policy</a></li>
+	    <li><a href="http://fnanp.in-ulm.de/impressum.html">Impressum</a></li>
 	  </ul>
 	  <p>This blog is statically generated with <a href="http://fnanp.in-ulm.de/sbe/">sbe.py</a></p>
 	  <hr />

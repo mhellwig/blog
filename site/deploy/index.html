@@ -1299,7 +1299,8 @@ a picture)</li>
 <p>The problem is reproducible. Was online in the wifi where server is
 reachable directly, server went into arp cache. Disconnected from said
 wifi, connected to other wifi. Server still in arp cache, now as </p>
-<pre class="codehilite"><code>&lt;incomplete&gt; on wlan0</code></pre>
+<div class="codehilite"><pre><span></span>&lt;incomplete&gt; on wlan0
+</pre></div>
 <p>and therefore, again, unreachable under that IP address.</p>
 <p>So at least on this Droid4, arp cache handling is definitely b0rken.</p>
 <p>Note: if anyone else can reproduce this, I'd be happy to hear about it.</p>
@@ -1341,7 +1342,8 @@ tried to reach it in other ways (i.e. by connecting through other hosts).</p>
 </ul>
 <p>So, next, I looked at the shell on my phone again and tried to see if
 maybe the routing was broken, but </p>
-<pre class="codehilite"><code>$ ip route show</code></pre>
+<div class="codehilite"><pre><span></span>$ ip route show
+</pre></div>
 <p>gave a completely normal output (i.e. there was only the default route to
 my wifi router plus the local netmask). Next, I tried to see whether there
 was a pattern to to the IP addresses I could reach and the ones I
@@ -1358,8 +1360,9 @@ people I know to aid in brainstorming) said "Have you looked at the arp
 cache?"</p>
 <p>I hadn't.</p>
 <p>So I did.</p>
-<pre class="codehilite"><code>$ arp
-fnanp.in-ulm.n-addr.arpa (217.10.9.38) at &lt;incomplete&gt; on wlan0</code></pre>
+<div class="codehilite"><pre><span></span>$ arp
+fnanp.in-ulm.n-addr.arpa <span class="o">(</span><span class="m">217</span>.10.9.38<span class="o">)</span> at &lt;incomplete&gt; on wlan0
+</pre></div>
 <p>So. A full two days earlier, my phone had been connected to a wifi in
 which said server can be reached without going through a router and
 therefore had added the servers address to its arp cache. If I read the
@@ -1367,10 +1370,12 @@ arp(7) manpage correctly, the lifetime of an entry in the arp cache should
 be around the 30 seconds mark, but at this point it was already 48 hours
 that it had been there. Another way to see that the phone thought the
 server should be in the same network:</p>
-<pre class="codehilite"><code>$ ip neigh show
-217.10.9.38 dev wlan0 FAILED</code></pre>
+<div class="codehilite"><pre><span></span>$ ip neigh show
+<span class="m">217</span>.10.9.38 dev wlan0 FAILED
+</pre></div>
 <p>also</p>
-<pre class="codehilite"><code>$ ip route show cache | grep 217.10.9.38</code></pre>
+<div class="codehilite"><pre><span></span>$ ip route show cache <span class="p">|</span> grep <span class="m">217</span>.10.9.38
+</pre></div>
 <p>showed it as a local address that was offline. At this point I was
 pondering whether I should flush the cache and just be done with it or
 whether I wanted to find out more about this. But then my parents came
@@ -1486,7 +1491,7 @@ ist. Dafuer soll jetzt dieses Theater hier gut sein.</p>
 	  <hr>
 	  <h2>Info</h2>
 	  <ul>
-	    <li><a href="http://fnanp.in-ulm.de/impressum.html">Impressum</a></li>
+	    <li><a href="http://fnanp.in-ulm.de/impressum.html">Impressum und Datenschutzerklärung / privacy policy</a></li>
 	  </ul>
 	  <p>This blog is statically generated with <a href="http://fnanp.in-ulm.de/sbe/">sbe.py</a></p>
 	  <hr>

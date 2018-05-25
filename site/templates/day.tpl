@@ -80,7 +80,7 @@
 	  <hr />
 	  <h2>Info</h2>
 	  <ul>
-	    <li><a href="http://fnanp.in-ulm.de/impressum.html">Impressum</a></li>
+	    <li><a href="http://fnanp.in-ulm.de/impressum.html">Impressum und Datenschutzerkl&auml;rung / privacy policy</a></li>
 	  </ul>
 	  <p>This blog is statically generated with <a href="http://fnanp.in-ulm.de/sbe/">sbe.py</a></p>
 	  <hr />

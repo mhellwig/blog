@@ -1,10 +1,10 @@
 <?python from genshi import HTML ?>
-<?python top = "../../" ?>
+<?python top = "../" ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:py="http://genshi.edgewall.org/">
     <head>
-        <title>${unicode(c.get_date().strftime("%B %Y"),"utf-8")}</title>
+        <title>${c.id}</title>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
         <meta name="robots" content="index, follow" />
         <meta http-equiv="content-language" content="en" />
@@ -27,30 +27,27 @@
                     <a py:if="c.next" href="${top}${c.next.get_deploy_path()}">${unicode(c.next.get_date().strftime("%B %Y"),"utf-8")}</a>
                     <span py:if="not c.next" class="disabled">next</span>
                 </li>
-                <li class="up"><a href="${top}${c.parent.get_deploy_path()}">up</a><br/>
-                    <a href="${top}${c.parent.get_deploy_path()}">${c.parent.get_base_name()}</a>
-                </li>
+                <li class="up"><a href="${top}">up</a></li>
             </ul>
             ${navigation(c)}
         </div>
 	<div id="main">
         <div class="article">
             <ul py:if="c.children">
-                <li py:for="day in c.children">
-                    <a href="${top}${day.get_deploy_path()}">${unicode(day.get_date().strftime("%d. %B %Y"),"utf-8")}</a> (${len(day.children)} Artikel)
+                <li py:for="month in c.children">
+                    <a href="${top}${month.get_deploy_path()}">${unicode(month.get_date().strftime("%B %Y"),"utf-8")}</a> (${len(list(month.get_articles()))} Artikel)
                 </li>
             </ul>
         </div>
 	</div>
-	<div id="sidebar">
+       	<div id="sidebar">
 	  <h2>Navigation</h2>
 	  <ul>
 	    <li><a href="${top}">Blog-Root</a></li>
-	    <li><a href="${top}tags/index.html">Tags</a></li>
-	    <li><a href="${top}2013/index.html">Archive 2013</a></li>
+	    <li><a href="${top}/2013/index.html">Archive 2013</a></li>
 	    <li><a href="http://fnanp.in-ulm.de/frederik_und_moritz/sbe/">Blog about my Kids</a></li>
 	    <li><a href="http://fnanp.in-ulm.de/">FNANP Root</a></li>
-	  </ul>
+  </ul>
 	  <hr />
 	  <h2>Links</h2>
 	  <ul>
@@ -69,13 +66,13 @@
 	  <hr />
 	  <h2>Info</h2>
 	  <ul>
-	    <li><a href="http://fnanp.in-ulm.de/impressum.html">Impressum und Datenschutzerkl&auml;rung / privacy policy</a></li>
+	    <li><a href="http://fnanp.in-ulm.de/impressum.html">Impressum</a></li>
 	  </ul>
 	  <p>This blog is statically generated with <a href="http://fnanp.in-ulm.de/sbe/">sbe.py</a></p>
 	  <hr />
 
 	</div>
-        <div id="footer">
+	<div id="footer">
             ${navigation(c)}
         </div>
     </div>
