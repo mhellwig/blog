@@ -1,0 +1,19 @@
+Title     : archive.
+Author    : michael
+Created   : 2018-05-25T08:08:00
+Tags      : administrativa
+Comments  : Off
+Trackback : On
+TagURI    : tag:fnanp.in-ulm.de,2018-05-25:2018/05/25/archive
+
+This blog is mostly kept as an archive, for the time being. My main output
+now goes through my [microblog site](https://fnanp.in-ulm.de/microblog/) -
+which might be a slight misnomer because it sometimes also contains long
+form articles. 
+
+Mainly I've switched from this static site generator ("sbe.py"), that
+nobody except myself seems to use (not even its original author, which is
+a bad place to be as a user) to something jekyll based.  I'm quite happy
+with it. I've detailed how I use it
+[here](https://fnanp.in-ulm.de/microblog/2018/04/24/01/) and
+[here](https://fnanp.in-ulm.de/microblog/2018/04/30/02/).

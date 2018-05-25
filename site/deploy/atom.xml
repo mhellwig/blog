@@ -4,8 +4,28 @@
     <id>http://fnanp.in-ulm.de/blog/</id>
     <link rel="alternate" href="http://fnanp.in-ulm.de/blog" type="text/html"/>
     <link rel="self" href="http://fnanp.in-ulm.de/blog/atom.xml" type="application/atom+xml"/>
-    <updated>2018-05-25T08:00:58Z</updated>
+    <updated>2018-05-25T08:08:04Z</updated>
     <entry>
+        <title>archive.</title>
+        <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2018/05/25/01-archive.html" type="text/html"/>
+        <id>tag:fnanp.in-ulm.de,2018-05-25:2018/05/25/archive</id>
+        <updated>2018-05-25T08:08:04Z</updated>
+        <published>2018-05-25T08:08:00Z</published>
+        <category term="administrativa"/>
+        <author>
+            <name>michael</name>
+        </author>
+        <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>This blog is mostly kept as an archive, for the time being. My main output
+now goes through my <a href="https://fnanp.in-ulm.de/microblog/">microblog site</a> -
+which might be a slight misnomer because it sometimes also contains long
+form articles. </p>
+<p>Mainly I've switched from this static site generator ("sbe.py"), that
+nobody except myself seems to use (not even its original author, which is
+a bad place to be as a user) to something jekyll based.  I'm quite happy
+with it. I've detailed how I use it
+<a href="https://fnanp.in-ulm.de/microblog/2018/04/24/01/">here</a> and
+<a href="https://fnanp.in-ulm.de/microblog/2018/04/30/02/">here</a>.</p></div></content>
+    </entry><entry>
         <title>woes6.</title>
         <link rel="alternate" href="http://fnanp.in-ulm.de/blog/2016/03/01/01-woes6.html" type="text/html"/>
         <id>tag:fnanp.in-ulm.de,2016-03-01:2016/03/01/woes6</id>
